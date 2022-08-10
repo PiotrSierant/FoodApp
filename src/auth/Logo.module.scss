@@ -1,0 +1,73 @@
+.logo__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo__start__app {
+  margin-top: -100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  svg {
+    min-width: 300px;
+    max-width: 400px;
+    width: 300px;
+  }
+  .logo__start_app__icon {
+    position: absolute;
+    content: '';
+    top: 127px;
+    font-size: 4rem;
+    color: #E2D1C3;
+  }
+}
+.start__app__info {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-size: 4rem;
+  margin: -30px 0 10px 0;
+}
+.start__app__info__name {
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 600px) {
+  .logo__start__app {
+    svg {
+      min-width: 400px;
+      max-width: 400px;
+      width: 400px;
+    }
+    .logo__start_app__icon {
+      position: absolute;
+      content: '';
+      top: 180px;
+      font-size: 4rem;
+      color: #E2D1C3;
+    }
+  }
+}
+@media screen and (min-width: 1566px) {
+  .logo__start__app {
+    svg {
+      min-width: 600px;
+      max-width: 600px;
+      width: 600px;
+    }
+    .logo__start_app__icon {
+      position: absolute;
+      content: '';
+      top: 260px;
+      font-size: 7rem;
+      color: #E2D1C3;
+    }
+  }
+  .start__app__info {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    font-size: 7rem;
+    margin: -50px 0 0 0;
+  }
+}
