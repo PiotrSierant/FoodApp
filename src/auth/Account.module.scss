@@ -1,0 +1,148 @@
+.container__spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.loader {
+  $pseudo: after;
+  $duration: 3s;
+  $elastic: cubic-bezier(.31,.01,.26,1.55);
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100px;
+    width: 100px;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    display: none;
+  }
+  &::#{$pseudo} {
+    content: "";
+    display: block;
+    border-radius: 50%;
+    background-color: currentColor;
+    color: #394eff;
+    font-size: 20px;
+    width: var(--size);
+    height: var(--size);
+    animation-name: loader;
+    animation-duration: $duration;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: calc(50% + (var(--size) * -0.5));
+    transform-origin: 50% calc((var(--size) * 0.5) + (var(--offset) * 1));
+    --offset: 1.5em;
+    --size: 1em;
+    --h-multi: .9;
+    --v-multi: 1.5;
+    @mixin collapsed {
+      top: calc(50% + (var(--size) * -0.5));
+      box-shadow:
+              0 0 0 0 currentColor,
+              0 0 0 0 currentColor;
+    }
+    @mixin expanded {
+      top: calc(50% + (var(--size) * -0.5) + (var(--offset) * -1));
+      box-shadow:
+              calc(var(--offset) * var(--h-multi)*-1)
+              calc(var(--offset) * var(--v-multi)) 0 0 currentColor,
+              calc(var(--offset) * var(--h-multi))
+              calc(var(--offset) * var(--v-multi)) 0 0 currentColor;
+    }
+    @mixin elastic {
+      animation-timing-function: $elastic;
+    }
+    @mixin linear {
+      animation-timing-function: linear;
+    }
+    @keyframes loader {
+      0% {
+        @include collapsed;
+        @include linear;
+        transform: rotate(0deg);
+      }
+      10% {
+        @include collapsed;
+        @include elastic;
+      }
+      25% {
+        @include expanded;
+        @include linear;
+        transform: rotate(0deg);
+      }
+      75% {
+        @include expanded;
+        transform: rotate(720deg);
+      }
+      90% {
+        @include collapsed;
+      }
+      100% {
+        @include collapsed;
+        @include linear;
+        transform: rotate(720deg);
+      }
+    }
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.form {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.form__email span{
+  padding-left: 20px;
+}
+.form__input {
+  margin: 20px 0;
+}
+.form__input input {
+  margin-left: 10px;
+}
+.start__app__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #5761B2;
+  cursor: pointer;
+  color: #5761B2;
+  background-color: unset;
+  position: relative;
+}
+
+:focus {
+  outline: none;
+}
+
+.start__app__input__effect{
+  width: 200px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #5761B2;
+  color: #5761B2;
+  background-color: unset;
+  transition: 0.4s;
+}
+.start__app__input__effect::placeholder {
+  color: #5761B2;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}

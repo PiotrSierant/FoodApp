@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react';
-import { supabase } from '../auth/supabaseClient';
-import Auth from '../auth/Auth';
-import Account from '../auth/Account';
+import { supabase } from '../../auth/supabaseClient';
+import Auth from '../../auth/Auth';
 import styles from './App.module.scss';
-
+import Layout from "../Layout";
 
 export default function App() {
   const [session, setSession] = useState(null)
@@ -18,7 +17,7 @@ export default function App() {
 
   return (
       <div className={styles.container}>
-        {!session ? <Auth /> : <Account key={session.user.id} session={session} />}
+        {!session ? <Auth /> : <Layout session={session} /> }
       </div>
   )
 }

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { supabase } from './supabaseClient';
 import styles from './Auth.module.scss';
-import Logo from './Logo';
-import Login from './Login';
+import Logo from './Logo/Logo';
+import Login from './Login/Login';
 export default function Auth() {
     const [loading, setLoading] = useState(false)
     const [email, setEmail] = useState('')

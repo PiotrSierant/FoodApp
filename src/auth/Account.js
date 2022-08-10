@@ -1,11 +1,10 @@
-import { useState, useEffect } from 'react'
-import { supabase } from './supabaseClient'
+import { useState, useEffect } from 'react';
+import { supabase } from './supabaseClient';
+import styles from './Account.module.scss';
 
 const Account = ({ session }) => {
     const [loading, setLoading] = useState(true)
     const [username, setUsername] = useState(null)
-    const [website, setWebsite] = useState(null)
-    const [avatar_url, setAvatarUrl] = useState(null)
 
     useEffect(() => {
         getProfile()
@@ -18,7 +17,7 @@ const Account = ({ session }) => {
 
             let { data, error, status } = await supabase
                 .from('profiles')
-                .select(`username, website, avatar_url`)
+                .select(`username`)
                 .eq('id', user.id)
                 .single()
 
@@ -28,8 +27,6 @@ const Account = ({ session }) => {
 
             if (data) {
                 setUsername(data.username)
-                setWebsite(data.website)
-                setAvatarUrl(data.avatar_url)
             }
         } catch (error) {
             alert(error.message)
@@ -48,8 +45,6 @@ const Account = ({ session }) => {
             const updates = {
                 id: user.id,
                 username,
-                website,
-                avatar_url,
                 updated_at: new Date(),
             }
 
@@ -68,15 +63,18 @@ const Account = ({ session }) => {
     }
 
     return (
-        <div aria-live="polite">
+        <div className={styles.container} aria-live="polite">
             {loading ? (
-                'Saving ...'
+                <div className={styles.container__spinner}>
+                    <span className={styles.loader}></span>
+                </div>
             ) : (
-                <form onSubmit={updateProfile} className="form-widget">
-                    <div>Email: {session.user.email}</div>
-                    <div>
-                        <label htmlFor="username">Name</label>
+                <form onSubmit={updateProfile} className={styles.form}>
+                    <div className={styles.form__email}>Email:<span>{session.user.email}</span> </div>
+                    <div className={styles.form__input}>
+                        <label htmlFor="username">Name: </label>
                         <input
+                            className={styles.start__app__input__effect}
                             id="username"
                             type="text"
                             value={username || ''}
@@ -84,24 +82,14 @@ const Account = ({ session }) => {
                         />
                     </div>
                     <div>
-                        <label htmlFor="website">Website</label>
-                        <input
-                            id="website"
-                            type="url"
-                            value={website || ''}
-                            onChange={(e) => setWebsite(e.target.value)}
-                        />
-                    </div>
-                    <div>
-                        <button className="button block primary" disabled={loading}>
-                            Update profile
+                        <button
+                            className={styles.start__app__button}
+                            disabled={loading}>
+                            Zaktualizuj dane!
                         </button>
                     </div>
                 </form>
             )}
-            <button type="button" className="button block" onClick={() => supabase.auth.signOut()}>
-                Sign Out
-            </button>
         </div>
     )
 }

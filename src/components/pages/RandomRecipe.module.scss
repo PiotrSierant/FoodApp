@@ -1,0 +1,43 @@
+.randomRecipeContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.randomRecipeBox {
+  max-width: 1366px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.randomRecipeDescription {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+.randomRecipeDescription__recipe {
+  text-align: justify;
+}
+@media screen and (min-width: 815px) {
+  .randomRecipeDescription {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    img {
+      width: 50%;
+    }
+    .randomRecipeDescription__recipe {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

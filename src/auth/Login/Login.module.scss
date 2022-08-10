@@ -54,14 +54,44 @@
   0 0 10px #5761B2,
   0 0 25px #5761B2;
 }
-.start__app__input {
-  width: 300px;
-  margin-bottom: 20px;
-  padding: 15px 25px 15px 15px;
-  border-radius: 10px;
+
+:focus {
   outline: none;
-  border: 1px solid #5761B2;
+}
+.input{
+  margin-bottom: 20px;
   cursor: pointer;
+  background-color: unset;
+  position: relative;
+}
+.start__app__input__effect{
+  width: 300px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #5761B2;
+  padding: 15px 25px 15px 15px;
   color: #5761B2;
   background-color: unset;
+  transition: 0.4s;
+}
+.start__app__input__effect::placeholder {
+  color: #5761B2;
+}
+.start__app__input__effect ~ .start__app__input__focus__border{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #5761B2;
+  transition: 0.4s;
+}
+.start__app__input__effect:focus ~ .start__app__input__focus__border{
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
 }
