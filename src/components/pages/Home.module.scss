@@ -1,0 +1,11 @@
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 3rem 0;
+  overflow: hidden;
+  margin: 0 auto;
+  gap: 2rem;
+}

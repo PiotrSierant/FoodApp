@@ -31,19 +31,17 @@ export default function Navbar() {
                         ? <FontAwesomeIcon icon={faClose} />
                         : <FontAwesomeIcon icon={faBars} />
                     }
-
                 </div>
                 <ul className={ isOpen
                     ? `${styles.menu}`
                     : `${styles.close}`
                 }>
                     {menuList}
-                    <a className="button block" onClick={() => supabase.auth.signOut()}><li>
+                    <NavLink to={'/'} onClick={() => supabase.auth.signOut()}><li>
                         Wyloguj
-                    </li></a>
+                    </li></NavLink>
                 </ul>
             </nav>
         </div>
     )
 }
-

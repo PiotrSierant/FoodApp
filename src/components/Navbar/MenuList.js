@@ -21,7 +21,7 @@ export const MenuList = [
     },
     {
         id: 5,
-        title: 'O mnie',
+        title: 'Mój profil',
         url: '/about',
     },
 ];

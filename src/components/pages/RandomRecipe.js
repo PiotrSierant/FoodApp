@@ -4,10 +4,11 @@ import styles from './RandomRecipe.module.scss';
 export const RandomRecipe = () => {
     const [randomRecipe, setRandomRecipe] = useState(null);
     useEffect(() => {
-        fetch('https://api.spoonacular.com/recipes/random?apiKey=240a132031054a54a08a31900bab692f')
+        fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}`)
             .then(response => response.json())
             .then(response => {
                 const {recipes} = response
+                console.log(recipes)
                 const item = recipes[0]
                 setRandomRecipe(item);
             })
