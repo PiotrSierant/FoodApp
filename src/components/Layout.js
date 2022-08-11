@@ -19,6 +19,7 @@ export default function Layout({session}) {
                     <Route path='/my_recipe' element={<MyRecipe />} />
                     <Route path='/random_recipe' element={<RandomRecipe />} />
                     <Route path='/about' element={<About key={session.user.id} session={session}/>} />
+                    <Route path="*" element={<Home />} />
                 </Routes>
             </Router>
         </div>
