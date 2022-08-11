@@ -1,37 +1,37 @@
 import React, { useEffect, useState } from "react";
-import Card from "../Card";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/default';
-import styles from './Popular.module.scss';
+import styles from './OurChoice.module.scss';
+import CardOurChoice from "./CardOurChoice";
 
-export default function Popular() {
-    const [popular, setPopular] = useState([])
+export default function OurChoice() {
+    const [OurChoice, setOurChoice] = useState([])
 
     useEffect(() => {
-        PopularRecipe();
+        OurChoiceRecipe();
     }, [])
 
-    const PopularRecipe = async () => {
-        const checkLocalStorage = localStorage.getItem("popular")
+    const OurChoiceRecipe = async () => {
+        const checkLocalStorage = localStorage.getItem("ourChoice")
 
         if (checkLocalStorage) {
-            setPopular(JSON.parse(checkLocalStorage));
+            setOurChoice(JSON.parse(checkLocalStorage));
         } else {
             const api = await fetch(
-                `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=10`
+                `https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}&number=5`
             );
             const data = await api.json();
-            localStorage.setItem('popular', JSON.stringify(data.recipes))
-            setPopular(data.recipes)
+            localStorage.setItem('ourChoice', JSON.stringify(data.recipes))
+            setOurChoice(data.recipes)
         }
     }
 
     return (
-        <div className={styles.popularContainer}>
-            <h3>Popular recipe:</h3>
+        <div className={styles.ourChoiceContainer}>
+            <h3>Our choice recipe:</h3>
             <Splide options={{
+                perPage: 5,
                 drag: 'free',
-                type: 'loop',
                 arrows: false,
                 pagination: false,
                 gap: '4rem',
@@ -40,10 +40,10 @@ export default function Popular() {
                 focus: 'center',
             }}>
                 {
-                    popular.map(recipe => {
+                    OurChoice.map(recipe => {
                         return (
                             <SplideSlide key={recipe.id}>
-                                <Card title={recipe.title} image={recipe.image}/>
+                                <CardOurChoice title={recipe.title} image={recipe.image}/>
                             </SplideSlide>
                         );
                     })

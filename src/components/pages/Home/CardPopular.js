@@ -1,7 +1,7 @@
 import React from "react";
-import styles from './Card.module.scss';
+import styles from './CardPopular.module.scss';
 
-export default function Card({title, image}) {
+export default function CardPopular({title, image}) {
 
     return (
             <div className={styles.card}>

@@ -1,0 +1,30 @@
+.card1 {
+  img {
+    border-radius: 2rem;
+    width: 200px;
+    height: 350px;
+    object-fit: cover;
+  }
+  .title1 {
+    color: #e8e8e8;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: rgba(0,0,0, .5);
+    min-height: 80px;
+  }
+}
+@media screen and (min-width: 830px) {
+  .card1 {
+    img {
+      max-width: 300px;
+    }
+  }
+}

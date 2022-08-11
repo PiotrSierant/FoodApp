@@ -107,6 +107,9 @@
 }
 .form__input {
   margin: 20px 0;
+  label {
+    padding-bottom: unset;
+  }
 }
 .form__input input {
   margin-left: 10px;
@@ -145,4 +148,29 @@
 input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+@media screen and (max-width: 500px){
+  .form {
+    flex-direction: column;
+  }
+  .form__email {
+    display: flex;
+    flex-direction: column;
+    span {
+      padding: 1rem 0;
+      word-break: break-word;
+    }
+  }
+  .form__input {
+    display: flex;
+    flex-direction: column;
+    label {
+      padding-bottom: 1rem;
+    }
+  }
+  .form__input input {
+    margin-left: unset;
+  }
+
 }
