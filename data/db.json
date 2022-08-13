@@ -1,0 +1,39 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pierwszy przepis",
+      "desc": "jakis opis przepisu/potrawy"
+    },
+    {
+      "id": 2,
+      "title": "Drugi przepis",
+      "desc": "jakis opis przepisu/potrawy"
+    },
+    {
+      "id": 3,
+      "title": "Trzeci przepis",
+      "desc": "jakis opis przepisu/potrawy"
+    },
+    {
+      "title": "Czwarty przepis",
+      "desc": "Test dodawania z formularza",
+      "id": 4
+    },
+    {
+      "title": "Czwarty przepis",
+      "desc": "Test dodawania z formularza",
+      "id": 5
+    },
+    {
+      "title": "Następny przepis",
+      "desc": "Opis potrawy",
+      "id": 6
+    },
+    {
+      "title": "prepi",
+      "desc": "sdadas",
+      "id": 7
+    }
+  ]
+}

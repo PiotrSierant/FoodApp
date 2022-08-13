@@ -2,9 +2,10 @@ import React from "react";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Navbar from "./Navbar/Navbar";
 import {Home} from "./pages/Home/Home";
-import {NewRecipe} from "./pages/NewRecipe";
-import {MyRecipe} from "./pages/MyRecipe";
-import {RandomRecipe} from "./pages/RandomRecipe";
+import {NewRecipe} from "./pages/Recipe/NewRecipe";
+import {MyRecipe} from "./pages/Recipe/MyRecipe";
+import {RandomRecipe} from "./pages/Recipe/RandomRecipe";
+import RecipeDetails from "./pages/Recipe/RecipeDetails";
 import {About} from "./pages/About";
 import styles from './Layout.module.scss';
 
@@ -17,6 +18,9 @@ export default function Layout({session}) {
                     <Route path="/" element={<Home />} />
                     <Route path='/add_recipe' element={<NewRecipe />} />
                     <Route path='/my_recipe' element={<MyRecipe />} />
+                    <Route path='/my_recipe/*'>
+                        <Route path=':id' element={<RecipeDetails />} />
+                    </Route>
                     <Route path='/random_recipe' element={<RandomRecipe />} />
                     <Route path='/about' element={<About key={session.user.id} session={session}/>} />
                     <Route path="*" element={<Home />} />
