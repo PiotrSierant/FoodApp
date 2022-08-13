@@ -2,38 +2,13 @@
   "recipes": [
     {
       "id": 1,
-      "title": "Pierwszy przepis",
-      "desc": "jakis opis przepisu/potrawy"
+      "title": "Jajecznica",
+      "desc": "Idealny posiłek na każdy poranek jak i wieczór. Przetestuj idealny przepis już teraz! Posiłek przygotować można bardzo szybko!"
     },
     {
       "id": 2,
-      "title": "Drugi przepis",
+      "title": "Kanapki z serem",
       "desc": "jakis opis przepisu/potrawy"
-    },
-    {
-      "id": 3,
-      "title": "Trzeci przepis",
-      "desc": "jakis opis przepisu/potrawy"
-    },
-    {
-      "title": "Czwarty przepis",
-      "desc": "Test dodawania z formularza",
-      "id": 4
-    },
-    {
-      "title": "Czwarty przepis",
-      "desc": "Test dodawania z formularza",
-      "id": 5
-    },
-    {
-      "title": "Następny przepis",
-      "desc": "Opis potrawy",
-      "id": 6
-    },
-    {
-      "title": "prepi",
-      "desc": "sdadas",
-      "id": 7
     }
   ]
 }
