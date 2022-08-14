@@ -9,7 +9,11 @@ export default function RecipeList({recipes}) {
 
                     {
                         recipes.map((recipe) => (
-                            <Link to={`/my_recipe/${recipe.id}`} key={recipe.id} className={styles.recipeLink}>
+                            <Link
+                                to={`/my_recipe/${recipe.id}`}
+                                key={recipe.id}
+                                className={styles.recipeLink}
+                            >
                                 <div className={styles.recipeContainer}>
                                     <h3>{recipe.title}</h3>
                                     <p>{recipe.description}</p>

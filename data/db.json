@@ -1,14 +1,42 @@
 {
   "recipes": [
     {
-      "id": 1,
-      "title": "Jajecznica",
-      "desc": "Idealny posiłek na każdy poranek jak i wieczór. Przetestuj idealny przepis już teraz! Posiłek przygotować można bardzo szybko!"
+      "title": "Cake with lemon, rosewater and pistachios",
+      "description": "Cake with lemon, rosewater and pistachios",
+      "instruction": [
+        "Sift the flour, baking powder and salt into a large bowl.",
+        "Add the ground almonds and caster sugar and mix.",
+        "Mix the eggs, honey, yoghurt, sunflower oil and lemon zest together well in another bowl.",
+        "Make a well in the center of the dry ingredients and slowly pour in the wet ingredients, bringing them together with a whisk until they are just combined.",
+        "Add some chopped pistachios to the mixture.",
+        "Pour the mixture into the 22cm springform cake tin lined with greaseproof paper and bake in the oven at 180C for 50 minutes or until a skewer inserted into the middle comes out clean. Allow to cool in the tin for about 20 minutes.",
+        "Meanwhile, make the syrup. In a small saucepan, boil the water and sugar for about 5 minutes until it is reduced by half.",
+        "Add the lemon juice and boil for a further 2 minutes, then cool and add the rosewater.",
+        "Make holes on top of the warm cake with a toothpick and spoon the syrup all over the top. Scatter the pistachios over and leave to cool for 1 hour.",
+        "Decorate with rose petals before serving."
+      ],
+      "types": "dessert",
+      "cuisines": "",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "Kanapki z serem",
-      "desc": "jakis opis przepisu/potrawy"
+      "title": "Cake with lemon",
+      "description": "rosewater and pistachios",
+      "instruction": [
+        "Sift the flour",
+        " baking powder and salt into a large bowl",
+        "\nAdd the ground almonds and caster sugar and mix",
+        "\nAdd some chopped pistachios to the mixture."
+      ],
+      "types": [
+        "dessert",
+        " candy"
+      ],
+      "cuisines": [
+        "Europ",
+        " Asian"
+      ],
+      "id": 2
     }
   ]
 }

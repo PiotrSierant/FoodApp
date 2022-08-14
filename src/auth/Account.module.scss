@@ -116,16 +116,17 @@
 }
 .start__app__button {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 20px;
+  justify-content: center;
+  padding: .7rem 2rem;
   border-radius: 10px;
   outline: none;
   border: 1px solid #5761B2;
   cursor: pointer;
   color: #5761B2;
   background-color: unset;
-  position: relative;
+  &:hover {
+    box-shadow: 0 0 10px #5761B2;
+  }
 }
 
 :focus {

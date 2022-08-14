@@ -3,7 +3,13 @@ import styles from './RandomRecipe.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUtensils, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
 export const RandomRecipe = () => {
+    let INIT_INSTRUCTION = []
     const [randomRecipe, setRandomRecipe] = useState(null);
+    const [title, setTitle] = useState('')
+    const [description, setDescription] = useState('')
+    const [instruction, setInstruction] = useState(INIT_INSTRUCTION)
+    const [types, setTypes] = useState('')
+    const [cuisines, setCuisines] = useState('')
     useEffect(() => {
         fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}`)
             .then(response => response.json())
@@ -11,11 +17,38 @@ export const RandomRecipe = () => {
                 const {recipes} = response
                 const item = recipes[0]
                 setRandomRecipe(item);
-                console.log(item)
+                setTitle(item.title)
+                setDescription(item.title)
+                setTypes(item.dishTypes.join())
+                setCuisines(item.cuisines.join())
+                const instructions = []
+                item.analyzedInstructions[0].steps.map(element => {
+                    console.log(element.step)
+                    return instructions.push(element.step)
+                })
+                setInstruction(instructions)
             })
             .catch(err => console.error(err))
+
     }, [])
 
+    function handleClick() {
+        const recipe = {title, description, instruction, types, cuisines}
+        console.group('Dodaje do mojej listy:')
+        console.log('title: ', title);
+        console.log('description: ', description);
+        console.log('instruction: ', instruction);
+        console.log('types: ', types);
+        console.log('cuisines: ', cuisines);
+        console.groupEnd()
+        fetch('http://localhost:8000/recipes', {
+            method: 'POST',
+            headers: { "Content-Type": "application/json"},
+            body: JSON.stringify(recipe)
+        }).then(() => {
+            console.log('new recipe added');
+        });
+    }
     return <div className={styles.randomRecipeContainer}>
         {
             randomRecipe && (
@@ -60,7 +93,7 @@ export const RandomRecipe = () => {
                                 })
                             }
                             </ol>
-                            <button className={styles.randomRecipeButton}>Add recipe to my list</button>
+                            <button className={styles.randomRecipeButton} onClick={handleClick}>Add recipe to my list</button>
                         </div>
                     </div>
                 </div>
@@ -68,4 +101,3 @@ export const RandomRecipe = () => {
         }
     </div>
 }
-

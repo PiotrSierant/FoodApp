@@ -88,15 +88,18 @@
   gap: 1rem;
 }
 .randomRecipeButton {
-  width: 300px;
-  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  padding: .7rem 2rem;
+  border-radius: 10px;
+  outline: none;
   border: 1px solid #5761B2;
+  cursor: pointer;
   color: #5761B2;
-  padding: 0.5rem 1rem;
+  background-color: unset;
+  width: 300px;
   margin-bottom: 5rem;
   align-self: flex-end;
-  background-color: unset;
-  cursor: pointer;
   &:hover {
     box-shadow: 0 0 10px #5761B2;
   }
