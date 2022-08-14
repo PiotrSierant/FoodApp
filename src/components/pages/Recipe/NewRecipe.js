@@ -1,15 +1,17 @@
 import React, {useState} from "react";
 import styles from './NewRecipe.module.scss';
 export const NewRecipe = () => {
+    const INIT_IMAGE = '/image/notFound.svg';
     const [title, setTitle] = useState('')
     const [description, setDescription] = useState('')
     const [instruction, setInstruction] = useState('')
     const [types, setTypes] = useState('')
     const [cuisines, setCuisines] = useState('')
+    const [image, setImage] = useState(INIT_IMAGE)
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const recipe = {title, description, instruction, types, cuisines}
+        const recipe = {title, description, instruction, types, cuisines, image}
 
         fetch('http://localhost:8000/recipes', {
             method: 'POST',
@@ -35,6 +37,17 @@ export const NewRecipe = () => {
                     />
                     <span className={styles.start__app__input__focus__border}></span>
                 </div>
+                <label>Image</label>
+                <div className={styles.input}>
+                    <input
+                        className={styles.start__app__input__effect}
+                        type='text'
+                        value={image}
+                        placeholder='Podaj adres url obrazu(optional)'
+                        onChange={(event) => setImage(event.target.value)}
+                    />
+                    <span className={styles.start__app__input__focus__border}></span>
+                </div>
                 <label>Description</label>
                 <div className={styles.input}>
                     <input
@@ -55,7 +68,7 @@ export const NewRecipe = () => {
                         required
                         value={types}
                         placeholder='Wymień wszystkie typy oddzielając nazwy przecinkiem'
-                        onChange={(event) => setTypes(event.target.value.split(','))}
+                        onChange={(event) => setTypes(event.target.value)}
                     />
                     <span className={styles.start__app__input__focus__border}></span>
                 </div>
@@ -67,7 +80,7 @@ export const NewRecipe = () => {
                         required
                         value={cuisines}
                         placeholder='Wymień wszystkie kuchnie oddzielając nazwy przecinkiem'
-                        onChange={(event) => setCuisines(event.target.value.split(','))}
+                        onChange={(event) => setCuisines(event.target.value)}
                     />
                     <span className={styles.start__app__input__focus__border}></span>
                 </div>

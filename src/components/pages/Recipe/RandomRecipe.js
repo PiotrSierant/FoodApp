@@ -10,6 +10,7 @@ export const RandomRecipe = () => {
     const [instruction, setInstruction] = useState(INIT_INSTRUCTION)
     const [types, setTypes] = useState('')
     const [cuisines, setCuisines] = useState('')
+    const [image, setImage] = useState('')
     useEffect(() => {
         fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}`)
             .then(response => response.json())
@@ -21,9 +22,9 @@ export const RandomRecipe = () => {
                 setDescription(item.title)
                 setTypes(item.dishTypes.join())
                 setCuisines(item.cuisines.join())
+                item.image.length > 0 ? setImage(item.image) : setImage('/image/notFound.svg')
                 const instructions = []
                 item.analyzedInstructions[0].steps.map(element => {
-                    console.log(element.step)
                     return instructions.push(element.step)
                 })
                 setInstruction(instructions)
@@ -33,14 +34,7 @@ export const RandomRecipe = () => {
     }, [])
 
     function handleClick() {
-        const recipe = {title, description, instruction, types, cuisines}
-        console.group('Dodaje do mojej listy:')
-        console.log('title: ', title);
-        console.log('description: ', description);
-        console.log('instruction: ', instruction);
-        console.log('types: ', types);
-        console.log('cuisines: ', cuisines);
-        console.groupEnd()
+        const recipe = {title, description, instruction, types, cuisines, image}
         fetch('http://localhost:8000/recipes', {
             method: 'POST',
             headers: { "Content-Type": "application/json"},

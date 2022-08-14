@@ -1,42 +1,105 @@
 {
   "recipes": [
     {
-      "title": "Cake with lemon, rosewater and pistachios",
-      "description": "Cake with lemon, rosewater and pistachios",
+      "title": "Rustic Brie Toasts with Wild Mushroom, Cranberry and Shallot",
+      "description": "Rustic Brie Toasts with Wild Mushroom, Cranberry and Shallot",
       "instruction": [
-        "Sift the flour, baking powder and salt into a large bowl.",
-        "Add the ground almonds and caster sugar and mix.",
-        "Mix the eggs, honey, yoghurt, sunflower oil and lemon zest together well in another bowl.",
-        "Make a well in the center of the dry ingredients and slowly pour in the wet ingredients, bringing them together with a whisk until they are just combined.",
-        "Add some chopped pistachios to the mixture.",
-        "Pour the mixture into the 22cm springform cake tin lined with greaseproof paper and bake in the oven at 180C for 50 minutes or until a skewer inserted into the middle comes out clean. Allow to cool in the tin for about 20 minutes.",
-        "Meanwhile, make the syrup. In a small saucepan, boil the water and sugar for about 5 minutes until it is reduced by half.",
-        "Add the lemon juice and boil for a further 2 minutes, then cool and add the rosewater.",
-        "Make holes on top of the warm cake with a toothpick and spoon the syrup all over the top. Scatter the pistachios over and leave to cool for 1 hour.",
-        "Decorate with rose petals before serving."
+        "Start by pre-heating your oven to 350 degrees.  While the oven is pre-heating, heat the olive oil in a saut pan and add the shallot, diced mushroom, cranberry and thyme.  Saut for a few minutes until the shallot begins to wilt and then season with salt and pepper and set aside to cool.",
+        "Slice 12 pieces of brie and place each piece on the bread.  Follow with a spoonful of the cranberry, mushroom and shallot mixture and place on an oiled cookie sheet.",
+        "Bake the toasts for 15 minutes or just until the brie melts."
       ],
-      "types": "dessert",
+      "types": "",
       "cuisines": "",
+      "image": "",
       "id": 1
     },
     {
-      "title": "Cake with lemon",
-      "description": "rosewater and pistachios",
+      "title": "Cheddar Polenta With Bacon Wrapped Asparagus",
+      "description": "Cheddar Polenta With Bacon Wrapped Asparagus",
       "instruction": [
-        "Sift the flour",
-        " baking powder and salt into a large bowl",
-        "\nAdd the ground almonds and caster sugar and mix",
-        "\nAdd some chopped pistachios to the mixture."
+        "Preheat the oven to 40",
+        "Wrap 6 thick asparagus spears with two slices of raw bacon.",
+        "Place on a small baking sheet and spritz the bundle with nonstick cooking spray, just to coat the asparagus lightly.",
+        "Sprinkle with salt and pepper.Roast for 15-20 minutes, or until the bacon is crispy and the asparagus is tender.Make the cheddar polenta while the asparagus is roasting: Bring chicken broth to a boil in a small saucepan.Stir in polenta.Lower the heat and cook slowly for 5 minutes, stirring occasionally until the mixture has thickened.Stir in the cheese. I used extra sharp cheddar, but any kind would work.",
+        "Add a dash of salt and pepper, or more to taste.Scoop the polenta in a dish and top with the bacon wrapped asparagus."
       ],
-      "types": [
-        "dessert",
-        " candy"
-      ],
-      "cuisines": [
-        "Europ",
-        " Asian"
-      ],
+      "types": "lunch,main course,main dish,dinner",
+      "cuisines": "",
+      "image": "https://spoonacular.com/recipeImages/637516-556x370.jpg",
       "id": 2
+    },
+    {
+      "title": "Tortellini In Brodo",
+      "description": "Tortellini In Brodo",
+      "instruction": [
+        "Heat the stock to a boil and cook the tortellini. Ladle into bowls, squeeze in lemon and stir. Grate cheese and zest on top, and add some freshly ground salt and pepper.",
+        "Serve immediately."
+      ],
+      "types": "side dish",
+      "cuisines": "",
+      "image": "https://spoonacular.com/recipeImages/663696-556x370.jpg",
+      "id": 3
+    },
+    {
+      "title": "Creamsicle Cookies",
+      "description": "Creamsicle Cookies",
+      "instruction": [
+        "Preheat oven to 375 degrees.In a small bowl, combine flour, baking soda, and salt; set aside.In a large bowl, cream butter and sugars until light and creamy. Beat in egg and vanilla until smooth. Gradually add flour mixture until combined. Stir in orange zest and chips.Drop rounded teaspoonfuls onto ungreased cookie sheets. Do not flatten cookies; it will make them dry.",
+        "Bake 8 - 10 minutes or until golden brown around edges. Do not overcook! Cookies will be plump. Cool for several minutes on cookie sheets before transferring to rack to cool completely. Store in airtight container."
+      ],
+      "types": "antipasti,starter,snack,appetizer,antipasto,hor d'oeuvre",
+      "cuisines": "",
+      "image": "https://spoonacular.com/recipeImages/640589-556x370.jpg",
+      "id": 4
+    },
+    {
+      "title": "Turkey Enchilada Bake",
+      "description": "Turkey Enchilada Bake",
+      "instruction": [
+        "Make the turkey mixture: Roast the vegetables: Preheat oven to 400 degrees.",
+        "Cut the tomatillos in half, slice the onion into  in slices and remove garlic from covering."
+      ],
+      "types": "lunch,main course,main dish,dinner",
+      "cuisines": "",
+      "id": 5
+    },
+    {
+      "title": "Chocolate Nutella Walnut Cake",
+      "description": "Chocolate Nutella Walnut Cake",
+      "instruction": [
+        "Beat the eggs with the sugar.",
+        "Melt the butter, chocolate & nutella together.",
+        "Combine the chocolate mixture with the eggs & stir in the dry ingredients.",
+        "Butter & flour a spring form pan.",
+        "Add mixture to pan.",
+        "Cook at 350 F / 185 C  for 40 minutes or until a toothpick inserted into the center comes out clean."
+      ],
+      "types": "dessert",
+      "cuisines": "",
+      "image": "https://spoonacular.com/recipeImages/639114-556x370.jpg",
+      "id": 6
+    },
+    {
+      "title": "Działa",
+      "description": "Tak",
+      "instruction": [
+        "przepis"
+      ],
+      "types": "hej",
+      "cuisines": "kuchnia",
+      "image": "/image/notFound.svg",
+      "id": 7
+    },
+    {
+      "title": "jak",
+      "description": "tak",
+      "instruction": [
+        "git"
+      ],
+      "types": "dziala",
+      "cuisines": "to ",
+      "image": "https://spoonacular.com/recipeImages/663696-556x370.jpg",
+      "id": 8
     }
   ]
 }
