@@ -31,10 +31,13 @@ export const RandomRecipe = () => {
                 setCuisines(item.cuisines.join())
                 item.image.length > 0 ? setImage(item.image) : setImage('/image/notFound.svg')
                 const instructions = []
-                item.analyzedInstructions[0].steps.map(element => {
-                    return instructions.push(element.step)
-                })
-                setInstruction(instructions)
+                item.analyzedInstructions[0].steps.length > 0
+                    ? item.analyzedInstructions[0].steps.map(element => {
+                    return instructions.push(element.step)})
+                    : setInstruction(['Brak danych'])
+                if(instructions.length > 0) {
+                    setInstruction(instructions)
+                }
             })
             .catch(err => console.error(err))
 
