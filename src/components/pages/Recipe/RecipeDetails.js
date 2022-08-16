@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import {useParams} from "react-router-dom";
+import {useParams, useNavigate } from "react-router-dom";
 import stylesSpinner from "../../../auth/Auth.module.scss";
 import styles from './RecipeDetails.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -12,6 +12,7 @@ export default function BlogDetails() {
     const [error, setError] = useState(null);
     const [type, setType] = useState([]);
     const [cuisines, setCuisines] = useState([]);
+    const navigate = useNavigate();
 
     useEffect( () => {
         fetch(`http://localhost:8000/recipes/` + id)
@@ -34,7 +35,11 @@ export default function BlogDetails() {
             })
         }, [id])
         function handleClick() {
-            console.log('usuwam przepis')
+            fetch(`http://localhost:8000/recipes/` + recipes.id, {
+                method: 'DELETE'
+            }).then(() => {
+                navigate('/my_recipe')
+            })
         }
     return (
         <div className={styles.RecipeDetailsContainer}>

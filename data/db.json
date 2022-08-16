@@ -1,105 +1,70 @@
 {
   "recipes": [
     {
-      "title": "Rustic Brie Toasts with Wild Mushroom, Cranberry and Shallot",
-      "description": "Rustic Brie Toasts with Wild Mushroom, Cranberry and Shallot",
+      "title": "Nowy przepis",
+      "description": "Czy jest dodany email?",
       "instruction": [
-        "Start by pre-heating your oven to 350 degrees.  While the oven is pre-heating, heat the olive oil in a saut pan and add the shallot, diced mushroom, cranberry and thyme.  Saut for a few minutes until the shallot begins to wilt and then season with salt and pepper and set aside to cool.",
-        "Slice 12 pieces of brie and place each piece on the bread.  Follow with a spoonful of the cranberry, mushroom and shallot mixture and place on an oiled cookie sheet.",
-        "Bake the toasts for 15 minutes or just until the brie melts."
+        "Dodaj email",
+        " przefiltruj liste",
+        " wyswietl liste"
+      ],
+      "types": "Zaraz, zobaczymy ",
+      "cuisines": "Wszystko, na to wskazuje!",
+      "image": "/image/notFound.svg",
+      "email": "proko.piotr@gmail.com",
+      "id": 8
+    },
+    {
+      "title": "Meat rolls with prosciutto and sage",
+      "description": "Meat rolls with prosciutto and sage",
+      "instruction": [
+        "Wash, dry and flatten the steaks.",
+        "Rub one side of each steak with Vegeta Natur.",
+        "Cover the other side of the steak with a slice of prosciutto and a sage leaf.",
+        "Roll the steak and secure the roll with wooden or metal toothpicks.",
+        "Whisk corn starch into the wine.",
+        "Saut the rolls on all sides in the hot mixture of oil and butter until golden, then stir in wine and season with pepper.",
+        "Cover and simmer the rolls over low heat for 20 minutes or until very tender.",
+        "Remove the toothpicks before serving."
       ],
       "types": "",
       "cuisines": "",
-      "image": "",
-      "id": 1
+      "image": "https://spoonacular.com/recipeImages/651326-556x370.jpg",
+      "email": "proko.piotr@gmail.com",
+      "id": 9
     },
     {
-      "title": "Cheddar Polenta With Bacon Wrapped Asparagus",
-      "description": "Cheddar Polenta With Bacon Wrapped Asparagus",
+      "title": "Przepis frontu",
+      "description": "zobacz czy działa filtr",
       "instruction": [
-        "Preheat the oven to 40",
-        "Wrap 6 thick asparagus spears with two slices of raw bacon.",
-        "Place on a small baking sheet and spritz the bundle with nonstick cooking spray, just to coat the asparagus lightly.",
-        "Sprinkle with salt and pepper.Roast for 15-20 minutes, or until the bacon is crispy and the asparagus is tender.Make the cheddar polenta while the asparagus is roasting: Bring chicken broth to a boil in a small saucepan.Stir in polenta.Lower the heat and cook slowly for 5 minutes, stirring occasionally until the mixture has thickened.Stir in the cheese. I used extra sharp cheddar, but any kind would work.",
-        "Add a dash of salt and pepper, or more to taste.Scoop the polenta in a dish and top with the bacon wrapped asparagus."
+        "Już prawie koniec :) "
       ],
-      "types": "lunch,main course,main dish,dinner",
-      "cuisines": "",
-      "image": "https://spoonacular.com/recipeImages/637516-556x370.jpg",
-      "id": 2
-    },
-    {
-      "title": "Tortellini In Brodo",
-      "description": "Tortellini In Brodo",
-      "instruction": [
-        "Heat the stock to a boil and cook the tortellini. Ladle into bowls, squeeze in lemon and stir. Grate cheese and zest on top, and add some freshly ground salt and pepper.",
-        "Serve immediately."
-      ],
-      "types": "side dish",
-      "cuisines": "",
-      "image": "https://spoonacular.com/recipeImages/663696-556x370.jpg",
-      "id": 3
-    },
-    {
-      "title": "Creamsicle Cookies",
-      "description": "Creamsicle Cookies",
-      "instruction": [
-        "Preheat oven to 375 degrees.In a small bowl, combine flour, baking soda, and salt; set aside.In a large bowl, cream butter and sugars until light and creamy. Beat in egg and vanilla until smooth. Gradually add flour mixture until combined. Stir in orange zest and chips.Drop rounded teaspoonfuls onto ungreased cookie sheets. Do not flatten cookies; it will make them dry.",
-        "Bake 8 - 10 minutes or until golden brown around edges. Do not overcook! Cookies will be plump. Cool for several minutes on cookie sheets before transferring to rack to cool completely. Store in airtight container."
-      ],
-      "types": "antipasti,starter,snack,appetizer,antipasto,hor d'oeuvre",
-      "cuisines": "",
-      "image": "https://spoonacular.com/recipeImages/640589-556x370.jpg",
-      "id": 4
-    },
-    {
-      "title": "Turkey Enchilada Bake",
-      "description": "Turkey Enchilada Bake",
-      "instruction": [
-        "Make the turkey mixture: Roast the vegetables: Preheat oven to 400 degrees.",
-        "Cut the tomatillos in half, slice the onion into  in slices and remove garlic from covering."
-      ],
-      "types": "lunch,main course,main dish,dinner",
-      "cuisines": "",
-      "id": 5
-    },
-    {
-      "title": "Chocolate Nutella Walnut Cake",
-      "description": "Chocolate Nutella Walnut Cake",
-      "instruction": [
-        "Beat the eggs with the sugar.",
-        "Melt the butter, chocolate & nutella together.",
-        "Combine the chocolate mixture with the eggs & stir in the dry ingredients.",
-        "Butter & flour a spring form pan.",
-        "Add mixture to pan.",
-        "Cook at 350 F / 185 C  for 40 minutes or until a toothpick inserted into the center comes out clean."
-      ],
-      "types": "dessert",
-      "cuisines": "",
-      "image": "https://spoonacular.com/recipeImages/639114-556x370.jpg",
-      "id": 6
-    },
-    {
-      "title": "Działa",
-      "description": "Tak",
-      "instruction": [
-        "przepis"
-      ],
-      "types": "hej",
-      "cuisines": "kuchnia",
+      "types": "tak, działa",
+      "cuisines": "super, extra",
       "image": "/image/notFound.svg",
-      "id": 7
+      "email": "frontend.newsletter.sierant@gmail.com",
+      "id": 10
     },
     {
-      "title": "jak",
-      "description": "tak",
+      "title": "Best Baked Macaroni and Cheese",
+      "description": "Best Baked Macaroni and Cheese",
       "instruction": [
-        "git"
+        "Heat the oven to 375 degrees. Butter a 3-quart casserole dish; set aside.",
+        "Place bread pieces in a medium bowl. In a small saucepan over medium heat, melt 2 tablespoons butter.",
+        "Pour butter into the bowl with bread, and toss. Set the breadcrumbs aside. In a medium saucepan set over medium heat, heat milk. Melt remaining 6 tablespoons butter in a high-sided skillet over medium heat. When butter bubbles, add flour. Cook, stirring, 1 minute.Slowly pour hot milk into flour-butter mixture while whisking. Continue cooking, whisking constantly, until the mixture bubbles and becomes thick.",
+        "Remove the pan from the heat. Stir in salt, nutmeg, black pepper, cayenne pepper, 3 cups cheddar, and 1 1/2 cups Gruyere. Set cheese sauce aside.Fill a large saucepan with water. Bring to a boil.",
+        "Add macaroni; cook 2 to 3 fewer minutes than manufacturers directions, until outside of pasta is cooked and inside is underdone. (Different brands of macaroni cook at different rates; be sure to read the instructions.)",
+        "Transfer the macaroni to a colander, rinse under cold running water, and drain well. Stir macaroni into the reserved cheese sauce.",
+        "Pour the mixture into the prepared casserole dish.",
+        "Sprinkle remaining 1 1/2 cups cheddar and 1/2 cup Gruyere; scatter breadcrumbs over the top.",
+        "Bake until browned on top, about 30 minutes.",
+        "Transfer dish to a wire rack to cool for 5 minutes; serve."
       ],
-      "types": "dziala",
-      "cuisines": "to ",
-      "image": "https://spoonacular.com/recipeImages/663696-556x370.jpg",
-      "id": 8
+      "types": "lunch,main course,main dish,dinner",
+      "cuisines": "American",
+      "image": "https://spoonacular.com/recipeImages/634873-556x370.jpg",
+      "email": "frontend.newsletter.sierant@gmail.com",
+      "id": 11
     }
   ]
 }

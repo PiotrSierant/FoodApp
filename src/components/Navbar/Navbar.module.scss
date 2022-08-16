@@ -1,17 +1,18 @@
+@import "../../variables";
 .navContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5761B2;
+  background-image: linear-gradient(to right, $secondary-color, $primary-color);
   width: 100%;
-  border-bottom: 1px solid #5761B2;
-  box-shadow: 0 2px 5px #5761B2;
+  border-bottom: 1px solid $primary-color;
+  box-shadow: 0 2px 5px $primary-color;
 }
 nav {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
-  color: whitesmoke;
+  color: $background-color-light;
   position: relative;
   z-index: 99;
   width: 100%;
@@ -24,17 +25,12 @@ nav {
   align-items: center;
   font-weight: 400;
   font-size: 1.5rem;
-  background-color: #e8e8e8;
   border-radius: 5px;
-  padding: 0 15px;
-  color: #5761B2;
+  color: $background-color-light !important;
 }
 .colorLogo {
   margin: 0 5px 0 0;
-  color: #e8e8e8;
-  background-color: #5761B2;
-  padding: .3rem;
-  border-radius: 50%;
+  color: $background-color-light;
 }
 
 .menu, .close {
@@ -53,14 +49,14 @@ nav {
 }
 .menu a, .close a {
   text-decoration: none;
-  color: #fff;
+  color: $background-color-light;
   font-weight: 300;
   padding: 1rem;
-  border-bottom: 3px solid #5761B2;
+  border-bottom: 3px solid transparent;
 }
 
 .menu a:hover, .close a:hover {
-  border-bottom: 3px solid #e8e8e8;
+  border-bottom: 3px solid $background-color-light;
   transition: all 0.5s ease-in-out;
 }
 
@@ -82,7 +78,7 @@ nav {
     flex-direction: column;
     width: 100%;
     position: absolute;
-    background: rgba(0, 0, 0, 0.7);
+    background: $background-color-dark;
     right: 0;
     top: 68px;
     transition: all 0.5s ease-in-out;
@@ -91,11 +87,11 @@ nav {
   .menu a, .close a {
     width: 100%;
     text-align: center;
-    border-bottom: 1px solid #5761B2;
+    border-bottom: unset;
   }
   .menu a:hover, .close a:hover {
-    background-color: rgba(0,0,0,0.7);
-    border-bottom: 1px solid #5761B2;
+    background-image: linear-gradient(to right, $secondary-color, $primary-color);
+    border-bottom: unset;
     transition: all 0.5s ease-in-out;
   }
   ul {

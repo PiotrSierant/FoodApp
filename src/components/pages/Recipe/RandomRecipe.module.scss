@@ -1,3 +1,4 @@
+@import '../../../variables';
 .randomRecipeContainer {
   width: 100%;
   min-height: 100vh;
@@ -32,9 +33,9 @@
   gap: 1rem;
   span {
     padding: 0.5rem 1.5rem;
-    border: 1px solid #394eff;
+    border: 1px solid $primary-color;
     border-radius: 1000px;
-    box-shadow: 0 0 5px rgba(0,0,0, .5);
+    box-shadow: 0 0 3px $background-color-dark;
     font-size: 0.8rem;
   }
 }
@@ -62,7 +63,7 @@
 .randomRecipeImg {
   width: 100%;
   border-radius: 2rem;
-  box-shadow: 0 5px 10px rgba(0,0,0, .5);
+  box-shadow: 0 5px 10px $background-color-dark;
 }
 .randomRecipeCuisines {
   width: 100%;
@@ -71,9 +72,9 @@
   span {
     padding: 0.5rem 1.5rem;
     margin-right: 1rem;
-    border: 1px solid #394eff;
+    border: 1px solid $primary-color;
     border-radius: 1000px;
-    box-shadow: 0 0 5px rgba(0,0,0, .5);
+    box-shadow: 0 0 5px $background-color-dark;
     font-size: 0.8rem;
   }
   :last-child {
@@ -93,14 +94,14 @@
   padding: .7rem 2rem;
   border-radius: 10px;
   outline: none;
-  border: 1px solid #5761B2;
+  border: 1px solid $primary-color;
   cursor: pointer;
-  color: #5761B2;
+  color: $primary-color;
   background-color: unset;
   width: 300px;
   margin-bottom: 5rem;
   align-self: flex-end;
   &:hover {
-    box-shadow: 0 0 10px #5761B2;
+    box-shadow: 0 0 10px $primary-color;
   }
 }

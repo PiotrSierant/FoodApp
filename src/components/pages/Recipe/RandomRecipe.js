@@ -1,16 +1,23 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from './RandomRecipe.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUtensils, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
+import {supabase} from "../../../auth/supabaseClient";
+
 export const RandomRecipe = () => {
-    let INIT_INSTRUCTION = []
+    let INIT_INSTRUCTION = [];
     const [randomRecipe, setRandomRecipe] = useState(null);
-    const [title, setTitle] = useState('')
-    const [description, setDescription] = useState('')
-    const [instruction, setInstruction] = useState(INIT_INSTRUCTION)
-    const [types, setTypes] = useState('')
-    const [cuisines, setCuisines] = useState('')
-    const [image, setImage] = useState('')
+    const [title, setTitle] = useState('');
+    const [description, setDescription] = useState('');
+    const [instruction, setInstruction] = useState(INIT_INSTRUCTION);
+    const [types, setTypes] = useState('');
+    const [cuisines, setCuisines] = useState('');
+    const [image, setImage] = useState('');
+    const navigate = useNavigate();
+    const user = supabase.auth.user();
+    const email = user.email;
+
     useEffect(() => {
         fetch(`https://api.spoonacular.com/recipes/random?apiKey=${process.env.REACT_APP_API_KEY}`)
             .then(response => response.json())
@@ -34,13 +41,13 @@ export const RandomRecipe = () => {
     }, [])
 
     function handleClick() {
-        const recipe = {title, description, instruction, types, cuisines, image}
+        const recipe = {title, description, instruction, types, cuisines, image, email}
         fetch('http://localhost:8000/recipes', {
             method: 'POST',
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(recipe)
         }).then(() => {
-            console.log('new recipe added');
+            navigate('/my_recipe')
         });
     }
     return <div className={styles.randomRecipeContainer}>

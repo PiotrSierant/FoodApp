@@ -1,3 +1,4 @@
+@import "../../../src/variables";
 .logo__container {
   display: flex;
   justify-content: center;
@@ -21,7 +22,7 @@
     content: '';
     top: 127px;
     font-size: 4rem;
-    color: #E2D1C3;
+    color: $background-color-light;
   }
 }
 .start__app__info {
@@ -45,7 +46,7 @@
       content: '';
       top: 180px;
       font-size: 4rem;
-      color: #E2D1C3;
+      color: $background-color-light;
     }
   }
 }
@@ -61,7 +62,7 @@
       content: '';
       top: 260px;
       font-size: 7rem;
-      color: #E2D1C3;
+      color: $background-color-light;
     }
   }
   .start__app__info {

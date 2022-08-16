@@ -1,3 +1,4 @@
+@import "../../../variables";
 .newPostContainer {
   width: 100%;
   max-width: 1366px;
@@ -6,10 +7,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  h2 {
+  h3 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-size: 2rem;
   }
 }
 .form {
@@ -34,7 +34,7 @@
   padding: 1rem;
   border-radius: 1rem;
   outline: none;
-  border: 1px solid #5761B2;
+  border: 1px solid $primary-color;
   height: 150px;
 
 }
@@ -56,14 +56,14 @@
   width: 100%;
   outline: none;
   border: none;
-  border-bottom: 1px solid #5761B2;
+  border-bottom: 1px solid $primary-color;
   padding: 15px 25px 15px 15px;
-  color: #5761B2;
+  color: $primary-color;
   background-color: unset;
   transition: 0.4s;
 }
 .start__app__input__effect::placeholder {
-  color: #5761B2;
+  color: $primary-color;
 }
 .start__app__input__effect ~ .start__app__input__focus__border{
   position: absolute;
@@ -71,7 +71,7 @@
   left: 50%;
   width: 0;
   height: 2px;
-  background-color: #5761B2;
+  background-color: $primary-color;
   transition: 0.4s;
 }
 .start__app__input__effect:focus ~ .start__app__input__focus__border{
@@ -89,11 +89,11 @@ input:-webkit-autofill:focus {
   padding: .7rem 2rem;
   border-radius: 10px;
   outline: none;
-  border: 1px solid #5761B2;
+  border: 1px solid $primary-color;
   cursor: pointer;
-  color: #5761B2;
+  color: $primary-color;
   background-color: unset;
   &:hover {
-    box-shadow: 0 0 10px #5761B2;
+    box-shadow: 0 0 10px $primary-color;
   }
 }

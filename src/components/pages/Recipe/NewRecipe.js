@@ -1,5 +1,8 @@
 import React, {useState} from "react";
+import { useNavigate } from "react-router-dom";
 import styles from './NewRecipe.module.scss';
+import {supabase} from "../../../auth/supabaseClient";
+
 export const NewRecipe = () => {
     const INIT_IMAGE = '/image/notFound.svg';
     const [title, setTitle] = useState('')
@@ -8,22 +11,25 @@ export const NewRecipe = () => {
     const [types, setTypes] = useState('')
     const [cuisines, setCuisines] = useState('')
     const [image, setImage] = useState(INIT_IMAGE)
+    const navigate = useNavigate();
+    const user = supabase.auth.user()
+    const email = user.email
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const recipe = {title, description, instruction, types, cuisines, image}
+        const recipe = {title, description, instruction, types, cuisines, image, email}
 
         fetch('http://localhost:8000/recipes', {
             method: 'POST',
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(recipe)
         }).then(() => {
-            console.log('new recipe added');
+            navigate('/my_recipe');
         });
     }
     return (
         <div className={styles.newPostContainer}>
-            <h2>New post</h2>
+            <h3>New post</h3>
             <form className={styles.form} onSubmit={handleSubmit}>
                 <label>Title</label>
                 <div className={styles.input}>

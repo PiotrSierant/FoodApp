@@ -6,6 +6,7 @@ export const MyRecipe = () => {
     const [recipes, setRecipes] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
+
     useEffect( () => {
         fetch('http://localhost:8000/recipes')
             .then(res => {

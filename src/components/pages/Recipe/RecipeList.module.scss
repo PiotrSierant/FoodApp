@@ -1,3 +1,4 @@
+@import "../../../variables";
 .recipeListContainer {
   width: 100%;
   display: flex;
@@ -22,11 +23,9 @@
   flex-direction: column;
   gap: .5rem;
   padding: 2rem;
-  box-shadow: 0 0 3px rgba(0,0,0, .5);
+  box-shadow: 0 0 5px $secondary-color;
   border-radius: 1rem;
 }
 .recipeLink {
   text-decoration: none;
-  color: #111111;
-
 }

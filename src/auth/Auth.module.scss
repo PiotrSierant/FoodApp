@@ -1,3 +1,4 @@
+@import "../../src/variables";
 .container {
   display: flex;
   justify-content: center;
@@ -39,7 +40,7 @@
     display: block;
     border-radius: 50%;
     background-color: currentColor;
-    color: #394eff;
+    color: $primary-color;
     font-size: 20px;
     width: var(--size);
     height: var(--size);

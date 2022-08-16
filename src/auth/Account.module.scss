@@ -1,3 +1,4 @@
+@import "../../src/variables";
 .container__spinner {
   display: flex;
   justify-content: center;
@@ -26,7 +27,7 @@
     display: block;
     border-radius: 50%;
     background-color: currentColor;
-    color: #394eff;
+    color: $primary-color;
     font-size: 20px;
     width: var(--size);
     height: var(--size);
@@ -120,12 +121,12 @@
   padding: .7rem 2rem;
   border-radius: 10px;
   outline: none;
-  border: 1px solid #5761B2;
+  border: 1px solid $primary-color;
   cursor: pointer;
-  color: #5761B2;
+  color: $primary-color;
   background-color: unset;
   &:hover {
-    box-shadow: 0 0 10px #5761B2;
+    box-shadow: 0 0 10px $primary-color;
   }
 }
 
@@ -137,13 +138,13 @@
   width: 200px;
   outline: none;
   border: none;
-  border-bottom: 1px solid #5761B2;
-  color: #5761B2;
+  border-bottom: 1px solid $primary-color;
+  color: $primary-color;
   background-color: unset;
   transition: 0.4s;
 }
 .start__app__input__effect::placeholder {
-  color: #5761B2;
+  color: $primary-color;
 }
 
 input:-webkit-autofill,
