@@ -27,20 +27,16 @@ export const RandomRecipe = () => {
                 setRandomRecipe(item);
                 setTitle(item.title)
                 setDescription(item.title)
-                setTypes(item.dishTypes.join())
-                setCuisines(item.cuisines.join())
+                item.dishTypes.length > 0 ? setTypes(item.dishTypes.join()) : setTypes(['brak danych'])
+                item.cuisines.length > 0 ? setCuisines(item.cuisines.join()) : setCuisines(['brak danych'])
                 item.image.length > 0 ? setImage(item.image) : setImage('/image/notFound.svg')
-                const instructions = []
                 item.analyzedInstructions[0].steps.length > 0
-                    ? item.analyzedInstructions[0].steps.map(element => {
-                    return instructions.push(element.step)})
-                    : setInstruction(['Brak danych'])
-                if(instructions.length > 0) {
-                    setInstruction(instructions)
-                }
-            })
-            .catch(err => console.error(err))
+                    ? ( item.analyzedInstructions[0].steps.map(element => {
+                    return INIT_INSTRUCTION.push(element.step) } ) )
+                    : setInstruction(INIT_INSTRUCTION)
 
+            })
+            .catch(() => console.error('Brak dostępnych zapytań do api'))
     }, [])
 
     function handleClick() {
@@ -55,7 +51,7 @@ export const RandomRecipe = () => {
     }
     return <div className={styles.randomRecipeContainer}>
         {
-            randomRecipe && (
+            randomRecipe ? (
                 <div className={styles.randomRecipeBox}>
                     <h2>{randomRecipe.title}</h2>
                     {randomRecipe.dishTypes.length > 0 && (
@@ -91,10 +87,12 @@ export const RandomRecipe = () => {
                         <div className={styles.randomRecipeDescription__recipe}>
                             <p>Follow the recipe below:</p>
                             <ol className={styles.randomRecipeList}>
-                            {
+                            { randomRecipe.analyzedInstructions[0] > 0
+                                ? <span>Przepis nie zawiera instrukcji...</span>
+                                : (
                                 randomRecipe.analyzedInstructions[0].steps.map((element,index) => {
                                     return <li key={index}>{element.step}</li>
-                                })
+                                }))
                             }
                             </ol>
                             <button className={styles.randomRecipeButton} onClick={handleClick}>Add recipe to my list</button>
@@ -102,6 +100,9 @@ export const RandomRecipe = () => {
                     </div>
                 </div>
             )
+                : (
+                    <h3>Api error, brak dostępnych zapytań</h3>
+                )
         }
     </div>
 }
