@@ -4,14 +4,71 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 20px;
 }
 .RecipeContainerBox {
   max-width: 800px;
-  min-width: 100%;
+  width: 100%;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  text-align: center;
+  h2 {
+    font-size: 2rem;
+  }
+  p, li {
+    text-align: left;
+  }
+}
+.RecipeIcon {
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+.RecipeImg {
+  border-radius: 2rem;
+}
+.RecipeDescription {
+  line-height: 1.7rem;
+  text-align: justify;
+}
+.RecipeTypes {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  span {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid $primary-color;
+    border-radius: 1000px;
+    box-shadow: 0 0 5px $background-color-dark;
+    font-size: 0.8rem;
+  }
+}
+.RecipeList {
+  padding-left: 1rem;
+  width: 100%;
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+.RecipeButton {
+  display: flex;
+  justify-content: center;
+  padding: .7rem 2rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+  color: $primary-color;
+  background-color: unset;
+  width: 300px;
+  margin-bottom: 5rem;
+  align-self: flex-end;
+  &:hover {
+    box-shadow: 0 0 10px $primary-color;
+  }
 }

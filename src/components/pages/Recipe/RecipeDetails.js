@@ -43,6 +43,7 @@ export default function BlogDetails() {
         }
     return (
         <div className={styles.RecipeDetailsContainer}>
+            {error && <h3>{error}</h3>}
             {loading ? (
                 <div className={stylesSpinner.container__spinner}>
                     <span className={stylesSpinner.loader}></span>
@@ -50,10 +51,10 @@ export default function BlogDetails() {
             ) : (
                 <div className={styles.RecipeDetailsBox}>
                     <h2>{recipes.title}</h2>
-                        <div>
-                            <FontAwesomeIcon icon={faUtensils} className={styles.RecipeDetailsIcon} />
-                            <span>Types:</span>
-                        </div>
+                    <div>
+                        <FontAwesomeIcon icon={faUtensils} className={styles.RecipeDetailsIcon} />
+                        <span>Types:</span>
+                    </div>
                     <div className={styles.RecipeDetailsTypes}>
                         {
                             type.map((element, index) => {
