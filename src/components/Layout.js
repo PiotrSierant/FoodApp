@@ -8,6 +8,7 @@ import {RandomRecipe} from "./pages/Recipe/RandomRecipe";
 import RecipeDetails from "./pages/Recipe/RecipeDetails";
 import {About} from "./pages/About";
 import styles from './Layout.module.scss';
+import Recipe from "./pages/Recipe/Recipe";
 
 export default function Layout({session}) {
     return (
@@ -16,6 +17,9 @@ export default function Layout({session}) {
                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Home />} />
+                    <Route path="/recipe/*">
+                        <Route path=':id' element={<Recipe />} />
+                    </Route>
                     <Route path='/add_recipe' element={<NewRecipe />} />
                     <Route path='/my_recipe' element={<MyRecipe />} />
                     <Route path='/my_recipe/*'>

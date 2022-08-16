@@ -43,12 +43,13 @@ export const NewRecipe = () => {
                     />
                     <span className={styles.start__app__input__focus__border}></span>
                 </div>
-                <label>Image</label>
+                <label className={styles.labelek}>Image<span>available soon</span></label>
                 <div className={styles.input}>
                     <input
-                        className={styles.start__app__input__effect}
+                        className={styles.start__app__input__effect__v2}
                         type='text'
                         value={image}
+                        disabled={true}
                         placeholder='Podaj adres url obrazu(optional)'
                         onChange={(event) => setImage(event.target.value)}
                     />

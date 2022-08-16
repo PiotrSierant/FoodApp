@@ -97,3 +97,27 @@ input:-webkit-autofill:focus {
     box-shadow: 0 0 10px $primary-color;
   }
 }
+.start__app__input__effect__v2 {
+  min-width: 300px;
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #ff3333;
+  padding: 15px 25px 15px 15px;
+  color: $primary-color;
+  background-color: rgba(50,50,50);
+  transition: 0.4s;
+}
+.labelek {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.labelek span {
+  padding: .2rem .5rem;
+  background-color: #ff3333;
+  color: $background-color-light;
+  font-size: .7rem;
+  margin-left: .5rem;
+  border-radius: 10000px;
+}

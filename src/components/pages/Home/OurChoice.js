@@ -3,6 +3,7 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/default';
 import styles from './OurChoice.module.scss';
 import CardOurChoice from "./CardOurChoice";
+import {Link} from "react-router-dom";
 
 export default function OurChoice() {
     const [OurChoice, setOurChoice] = useState([])
@@ -25,7 +26,6 @@ export default function OurChoice() {
             setOurChoice(data.recipes)
         }
     }
-
     return (
         <div className={styles.ourChoiceContainer}>
             <h3>Our choice recipe:</h3>
@@ -43,7 +43,9 @@ export default function OurChoice() {
                     OurChoice.map(recipe => {
                         return (
                             <SplideSlide key={recipe.id}>
-                                <CardOurChoice title={recipe.title} image={recipe.image}/>
+                                <Link to={`/recipe/${recipe.id}`} state={{recipe}} className={styles.OurChoiceLink}>
+                                    <CardOurChoice title={recipe.title} image={recipe.image}/>
+                                </Link>
                             </SplideSlide>
                         );
                     })

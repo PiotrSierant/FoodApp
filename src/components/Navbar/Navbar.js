@@ -1,30 +1,24 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faClose, faPepperHot } from "@fortawesome/free-solid-svg-icons";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { MenuList } from "./MenuList";
 import styles from './Navbar.module.scss';
 import {supabase} from "../../auth/supabaseClient";
 export default function Navbar() {
-    const [isOpen, setIsOpen] = useState(true);
-    const location = useLocation();
+    const handleClickMenu = () => {
+        setIsOpen(!isOpen);
+    }
+    const [isOpen, setIsOpen] = useState(false);
     const menuList = MenuList.map(({url, title, id}) => {
         return (
-            <NavLink key={id} to={url}>
+            <NavLink key={id} to={url} onClick={handleClickMenu}>
                 <li>
                     {title}
                 </li>
             </NavLink>
         )
     })
-    const handleClickMenu = () => {
-        setIsOpen(!isOpen);
-    }
-
-    useEffect(() => {
-        setIsOpen(!isOpen);
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [location]);
 
     return (
         <div className={styles.navContainer}>

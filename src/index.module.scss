@@ -42,23 +42,13 @@ a {
   cursor: pointer;
 }
 /* finish reset */
-
-.dark {
-  color: $text-color-dark;
+body {
+  font-family: 'Poppins', sans-serif;
   background: $background-color-dark;
+  color: $text-color-dark;
   a {
     color: $text-color-dark;
   }
-}
-.light {
-  color: $text-color-light;
-  background: $background-color-light;
-  a {
-    color: $text-color-light;
-  }
-}
-body {
-  font-family: 'Poppins', sans-serif;
 }
 .switchTheme {
   position: fixed;

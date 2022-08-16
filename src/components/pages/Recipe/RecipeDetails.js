@@ -10,8 +10,8 @@ export default function BlogDetails() {
     const [recipes, setRecipes] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [type, setType] = useState([]);
-    const [cuisines, setCuisines] = useState([]);
+    const [type, setType] = useState(['Brak danych']);
+    const [cuisines, setCuisines] = useState(['Brak danych']);
     const navigate = useNavigate();
 
     useEffect( () => {
@@ -26,12 +26,12 @@ export default function BlogDetails() {
                 setLoading(false);
                 setRecipes(data);
                 setError(null);
-                data.types.length > 0 ? setType(data.types.split(',')) : setType(['Brak danych']);
-                data.cuisines.length > 0 ? setCuisines(data.cuisines.split(',')) : setCuisines(['Brak danych']);
+                data.types.length > 0 && setType(data.types.split(','));
+                data.cuisines.length > 0 && setCuisines(data.cuisines.split(','));
             })
             .catch(error => {
                 setLoading(false);
-                setError(error.message)
+                setError(error.message);
             })
         }, [id])
         function handleClick() {
@@ -43,7 +43,6 @@ export default function BlogDetails() {
         }
     return (
         <div className={styles.RecipeDetailsContainer}>
-            { error && <div>{error}</div> }
             {loading ? (
                 <div className={stylesSpinner.container__spinner}>
                     <span className={stylesSpinner.loader}></span>

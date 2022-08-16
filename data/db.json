@@ -34,18 +34,6 @@
       "id": 9
     },
     {
-      "title": "Przepis frontu",
-      "description": "zobacz czy działa filtr",
-      "instruction": [
-        "Już prawie koniec :) "
-      ],
-      "types": "tak, działa",
-      "cuisines": "super, extra",
-      "image": "/image/notFound.svg",
-      "email": "frontend.newsletter.sierant@gmail.com",
-      "id": 10
-    },
-    {
       "title": "Best Baked Macaroni and Cheese",
       "description": "Best Baked Macaroni and Cheese",
       "instruction": [
@@ -65,6 +53,88 @@
       "image": "https://spoonacular.com/recipeImages/634873-556x370.jpg",
       "email": "frontend.newsletter.sierant@gmail.com",
       "id": 11
+    },
+    {
+      "title": "No Oven Peanut Butter Squares",
+      "description": "No Oven Peanut Butter Squares",
+      "instruction": [
+        "Wash eggplants, cut the stems and halve lengthwise. Scoop out the middle.In a bowl mix and combine sausage meat, egg, feta cheese, mozzarella, almonds and pepper.With a spoon, stuff the eggplants.",
+        "Sprinkle with breadcrumbs (about  tablespoon on each eggplant) and olive oil.",
+        "Place the eggplants on a baking sheet lined with parchment paper and bake in the oven for 25 minutes on 230C.",
+        "Serve hot, sprinkled with fresh, chopped dill, chives or basil.",
+        "Line 9\"x13\" pan with foil or wax paper, with ends extending over sides of pan. Melt butter in large bowl in microwave on high for 45 seconds or over stove in pan until melted.",
+        "Remove from heat and stir in sugar, crumbs and peanut butter; mix well.",
+        "Spread mixture into prepared pan. Melt \"Nuggets\" on slow and low heat in microwave or small saucepan until smooth, stirring until melted. Cool slightly, and then pour over peanut butter mixture in pan. Cool.",
+        "Cut partially through mixture to mark squares with desired size. Can refrigerate or wait until it sets. Lift from pan, using handles from foil or wax paper.",
+        "Cut all the way through mixture into squares.",
+        "Serves 24"
+      ],
+      "types": "antipasti,starter,snack,appetizer,antipasto,hor d'oeuvre",
+      "cuisines": [
+        "brak danych"
+      ],
+      "image": "https://spoonacular.com/recipeImages/653169-556x370.jpg",
+      "email": "frontend.newsletter.sierant@gmail.com",
+      "id": 12
+    },
+    {
+      "title": "Bacon-Wrapped Meatloaf",
+      "description": "Bacon-Wrapped Meatloaf",
+      "instruction": [
+        "Heat 1 tablespoon oil in a 12-inch skillet over medium-high heat.",
+        "Add the chicken and cook until well browned, stirring often.",
+        "Remove the chicken from the skillet.",
+        "Heat the remaining oil in the skillet over medium heat.",
+        "Add the mushrooms and cook until tender, stirring occasionally.",
+        "Add the garlic, tomatoes, and onions to the skillet; cook and stir for 1 minute.  Return the chicken to the skillet.  Stir in the Flavor Boost and water; cook until the chicken is cooked through.",
+        "Preheat the oven to 350 F.Melt the butter in a small skillet over medium-low heat; cook the onion until soft but not brown, about 5 minutes.",
+        "Add the garlic and cook for another minute.",
+        "Remove from heat and set aside.",
+        "Place a rack on or in a large, glass baking dish.  Alternating slightly, lay the strips of bacon across the rack, one end in the middle and allowing the other end to hang over the side of the dish.  Set aside.In a small bowl, mix 3 tablespoons of the tomato paste with the water, apple cider vinegar, honey, prepared mustard and 1/2 teaspoon of salt.  Set aside.In a large mixing bowl, combine the remaining ingredients with the onion/garlic mixture and the remaining tomato paste and gently but thoroughly mix with your hands.  Form into a loaf directly on top of the bacon, leaving enough of the bacon uncovered to wrap the top of the meatloaf.  Spoon the glaze over the top of the meatloaf and spread down the sides, covering it completely.  Lift the ends of the bacon hanging down the sides and place over the top of the meatloaf.",
+        "Bake for an hour, or until the meatloaf is cooked through and the bacon is brown and crisp.  Allow to rest for 10 minutes before serving."
+      ],
+      "types": "lunch,main course,main dish,dinner",
+      "cuisines": [
+        "brak danych"
+      ],
+      "image": "https://spoonacular.com/recipeImages/633372-556x370.jpg",
+      "email": "frontend.newsletter.sierant@gmail.com",
+      "id": 13
+    },
+    {
+      "title": "Vegan Pumpkin Pie Butter Cups",
+      "description": "Vegan Pumpkin Pie Butter Cups",
+      "instruction": [
+        "Brak danych",
+        "In a large pot add some water the frozen beans and frozen pearl onions. Cover and cook over medium heat until they are tender.",
+        "Drain and set aside.",
+        "In a large skillet over medium high heat melt 1 tablespoon of butter and the olive oil.",
+        "Add the green beans and pearl onions and saut for 1 minute.",
+        "Add the chicken stock and cook for another minute until the stock is evaporated.",
+        "Add 1 tablespoon of butter and the brown sugar; lower the heat to low and mix gently until slightly caramelized.",
+        "Remove from the heat and keep warm.",
+        "Return the skillet back to medium high heat and melt the remaining  teaspoon of butter in the center, add the salmon over and season with Slavosalt generously. Cook for 3-5 minutes until a golden crust is formed. Turn and cook for another 3 minutes.",
+        "Place the green beans with pearl onions on the plate and top with the salmon.",
+        "Line 16 muffin cups with paper or silicone liners. The butter cups are easier to take out if you use paper liners.",
+        "In a food processor, blend all of the chocolate crust ingredients together.",
+        "Drop a tablespoon of the crust into each cup and flatten it at the bottom.",
+        "In a small bowl, mix the ingredients for the pumpkin filling together. Freeze it for 5-10 minutes.",
+        "Mix the chocolate shell ingredients together until it looks like chocolate sauce.",
+        "Remove the pumpkin filling and drop -tablespoon dollops of the pie filling into each cup.",
+        "Pour about 2 teaspoons of chocolate sauce into each cup so that you could just about cover up the pumpkin filling.",
+        "Freeze the cups for 30 minutes to an hour.",
+        "Store in the refrigerator. The chocolate will turn gooey if you leave the cups out in room temperature for a long time.",
+        "Enjoy!"
+      ],
+      "types": [
+        "brak danych"
+      ],
+      "cuisines": [
+        "brak danych"
+      ],
+      "image": "https://spoonacular.com/recipeImages/664474-556x370.jpg",
+      "email": "frontend.newsletter.sierant@gmail.com",
+      "id": 14
     }
   ]
 }

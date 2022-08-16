@@ -3,6 +3,7 @@ import CardPopular from "./CardPopular";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css/default';
 import styles from './Popular.module.scss';
+import {Link} from "react-router-dom";
 
 export default function Popular() {
     const [popular, setPopular] = useState([])
@@ -32,7 +33,6 @@ export default function Popular() {
             <Splide options={{
                 perPage: 3,
                 drag: 'free',
-                type: 'loop',
                 arrows: false,
                 pagination: false,
                 gap: '4rem',
@@ -44,7 +44,9 @@ export default function Popular() {
                     popular.map(recipe => {
                         return (
                             <SplideSlide key={recipe.id}>
-                                <CardPopular title={recipe.title} image={recipe.image}/>
+                                <Link to={`/recipe/${recipe.id}`} state={{recipe}} className={styles.PopularLink}>
+                                    <CardPopular title={recipe.title} image={recipe.image}/>
+                                </Link>
                             </SplideSlide>
                         );
                     })

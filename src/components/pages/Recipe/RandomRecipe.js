@@ -6,7 +6,7 @@ import {faUtensils, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
 import {supabase} from "../../../auth/supabaseClient";
 
 export const RandomRecipe = () => {
-    let INIT_INSTRUCTION = [];
+    let INIT_INSTRUCTION = ['Brak danych'];
     const [randomRecipe, setRandomRecipe] = useState(null);
     const [title, setTitle] = useState('');
     const [description, setDescription] = useState('');
@@ -25,6 +25,7 @@ export const RandomRecipe = () => {
                 const {recipes} = response
                 const item = recipes[0]
                 setRandomRecipe(item);
+                console.log(item)
                 setTitle(item.title)
                 setDescription(item.title)
                 item.dishTypes.length > 0 ? setTypes(item.dishTypes.join()) : setTypes(['brak danych'])
@@ -37,7 +38,8 @@ export const RandomRecipe = () => {
 
             })
             .catch(() => console.error('Brak dostępnych zapytań do api'))
-    }, [])
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
     function handleClick() {
         const recipe = {title, description, instruction, types, cuisines, image, email}
@@ -101,7 +103,7 @@ export const RandomRecipe = () => {
                 </div>
             )
                 : (
-                    <h3>Api error, brak dostępnych zapytań</h3>
+                    <h3>Api error, brak dostępnych zapytań!</h3>
                 )
         }
     </div>
