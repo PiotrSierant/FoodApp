@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from './supabaseClient';
 import styles from './Account.module.scss';
-import Button from "../components/Button";
+import {Button} from "../components/Button";
 
 const Account = ({ session }) => {
     const [loading, setLoading] = useState(true)

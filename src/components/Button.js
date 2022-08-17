@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Button.module.scss';
 
-export default function Button({text, onClick}) {
+function Button({text, onClick}) {
     const handleClick = () => {
         onClick();
     }
@@ -15,4 +15,4 @@ function DeleteButton({text, onClick}) {
     return <button className={styles.deleteButton} onClick={handleClick}>{text}</button>
 }
 
-export {DeleteButton}
+export {DeleteButton, Button}

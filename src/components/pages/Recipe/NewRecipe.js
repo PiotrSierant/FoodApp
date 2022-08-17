@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 import styles from './NewRecipe.module.scss';
 import {supabase} from "../../../auth/supabaseClient";
-import Button from "../../Button";
+import {Button} from "../../Button";
 
 export const NewRecipe = () => {
     const INIT_IMAGE = '/image/notFound.svg';

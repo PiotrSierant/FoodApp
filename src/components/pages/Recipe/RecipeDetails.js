@@ -8,7 +8,7 @@ import {DeleteButton} from "../../Button";
 
 export default function BlogDetails() {
     const {id} = useParams();
-    const [recipes, setRecipes] = useState(null);
+    const [recipe, setRecipe] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [type, setType] = useState(['Brak danych']);
@@ -25,7 +25,7 @@ export default function BlogDetails() {
             })
             .then(data => {
                 setLoading(false);
-                setRecipes(data);
+                setRecipe(data);
                 setError(null);
                 data.types.length > 0 && setType(data.types.split(','));
                 data.cuisines.length > 0 && setCuisines(data.cuisines.split(','));
@@ -36,7 +36,7 @@ export default function BlogDetails() {
             })
         }, [id])
         function handleClick() {
-            fetch(`http://localhost:8000/recipes/` + recipes.id, {
+            fetch(`http://localhost:8000/recipes/` + recipe.id, {
                 method: 'DELETE'
             }).then(() => {
                 navigate('/my_recipe')
@@ -51,7 +51,7 @@ export default function BlogDetails() {
                 </div>
             ) : (
                 <div className={styles.RecipeDetailsBox}>
-                    <h2>{recipes.title}</h2>
+                    <h2>{recipe.title}</h2>
                     <div>
                         <FontAwesomeIcon icon={faUtensils} className={styles.RecipeDetailsIcon} />
                         <span>Types:</span>
@@ -64,7 +64,7 @@ export default function BlogDetails() {
                         }
                     </div>
                     <div className={styles.RecipeDetailsDescription}>
-                        <img className={styles.RecipeDetailsImg} src={recipes.image} alt={recipes.title}/>
+                        <img className={styles.RecipeDetailsImg} src={recipe.image} alt={recipe.title}/>
                         <div className={styles.RecipeDetailsCuisinesContainer}>
                             <div>
                                 <FontAwesomeIcon icon={faEarthEurope} className={styles.RecipeDetailsIcon} />
@@ -80,7 +80,7 @@ export default function BlogDetails() {
                             <p>Follow the recipe below:</p>
                             <ol className={styles.RecipeDetailsList}>
                                 {
-                                    recipes.instruction.map((element, index) => {
+                                    recipe.instruction.map((element, index) => {
                                         return <li key={index}>{element}</li>
                                     })
                                 }

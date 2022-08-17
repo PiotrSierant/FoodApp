@@ -4,7 +4,7 @@ import styles from './Recipe.module.scss';
 import {supabase} from "../../../auth/supabaseClient";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUtensils} from "@fortawesome/free-solid-svg-icons";
-import Button from "../../Button";
+import {Button} from "../../Button";
 export default function Recipe() {
     const location = useLocation()
     const { recipe } = location.state

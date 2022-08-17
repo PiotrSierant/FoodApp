@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Login.module.scss';
-import Button from '../../components/Button';
+import {Button} from '../../components/Button';
 export default function Login({email, setEmail}) {
     return (
         <div className={styles.login__container2}>
