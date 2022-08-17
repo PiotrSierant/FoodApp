@@ -15,7 +15,7 @@ export default function Login({email, setEmail}) {
                 />
                 <span className={styles.start__app__input__focus__border}></span>
             </div>
-            <Button aria-live="polite" text={'Wyślij link logowania!'} />
+            <Button aria-live="polite" text={'Wyślij link logowania!'} onClick={() => console.log('Link został wysłany!')} />
         </div>
     )
 }

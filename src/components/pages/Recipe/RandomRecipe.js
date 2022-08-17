@@ -42,7 +42,7 @@ export const RandomRecipe = () => {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    function handleClick() {
+    function addRecipe() {
         const recipe = {title, description, instruction, types, cuisines, image, email}
         fetch('http://localhost:8000/recipes', {
             method: 'POST',
@@ -98,7 +98,7 @@ export const RandomRecipe = () => {
                                 }))
                             }
                             </ol>
-                            <Button text={'Add recipe to my list'} onClick={handleClick}/>
+                            <Button text={'Add recipe to my list'} onClick={addRecipe}/>
                         </div>
                     </div>
                 </div>

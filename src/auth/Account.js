@@ -85,6 +85,7 @@ const Account = ({ session }) => {
                     <Button
                         disabled={loading}
                         text={'Zaktualizuj dane!'}
+                        onClick={() => console.log('Imię zostało zmienione!')}
                     />
                 </form>
             )}

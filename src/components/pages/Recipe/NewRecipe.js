@@ -102,7 +102,7 @@ export const NewRecipe = () => {
                         onChange={(event) => setInstruction(event.target.value.split(','))}
                     ></textarea>
                 </div>
-                <Button text={'Add new recipe'} />
+                <Button text={'Add new recipe'} onClick={() => console.log('Przepis dodany!')}/>
             </form>
         </div>
     )

@@ -1,20 +1,6 @@
 {
   "recipes": [
     {
-      "title": "Nowy przepis",
-      "description": "Czy jest dodany email?",
-      "instruction": [
-        "Dodaj email",
-        " przefiltruj liste",
-        " wyswietl liste"
-      ],
-      "types": "Zaraz, zobaczymy ",
-      "cuisines": "Wszystko, na to wskazuje!",
-      "image": "/image/notFound.svg",
-      "email": "proko.piotr@gmail.com",
-      "id": 8
-    },
-    {
       "title": "Meat rolls with prosciutto and sage",
       "description": "Meat rolls with prosciutto and sage",
       "instruction": [
@@ -152,6 +138,100 @@
       "image": "https://spoonacular.com/recipeImages/637932-556x370.jpg",
       "email": "frontend.newsletter.sierant@gmail.com",
       "id": 18
+    },
+    {
+      "title": "Kotlety mielone po śląsku. Przepis na kultowe karminadle",
+      "description": "Kotlety mielone po śląsku są pysznym daniem regionalnym, które od klasycznego mięsnego rarytasu odróżnia dodatek zrumienionej cebuli i smażenie z wykorzystaniem smalcu. Te z pozoru drobne zmiany sprawiają, że danie jest pełne smaku, soczyste i niezwykle aromatyczne. Koniecznie spróbujcie — tak dobrego obiadu dawno ni jedliście.",
+      "instruction": [
+        "Bułkę namaczamy w mleku",
+        " by nieco zmiękła. Cebule obieramy",
+        " po czym kroimy ją w drobną kostkę. Na patelni roztapiamy nieco smalcu i rumienimy rozdrobnione warzywo. Przenosimy je do większej miski",
+        "\nDodajemy zmielone mięso oraz rozgniecione przy pomocy widelca pieczywo. Wsypujemy nieco soli i pieprzu. Na koniec wbijamy jajo i sprawnie wyrabiamy masę na kotlety. Następnie wilgotnymi dłońmi formujemy niezbyt duże kulki",
+        "\n\nSpłaszczamy je",
+        " po czym dokładnie obtaczamy w bułce tartej. Tak przygotowane karminadle smażymy na solidnej i dobrze rozgrzanej porcji smalcu",
+        "\n\nGdy będą rumiane z obu stron",
+        " przenosimy je na bibułę",
+        " by usunąć nadmiar tłuszczu. Kotlety mielone po śląsku podajemy z wybranymi dodatkami. Nic nie stoi na przeszkodzie",
+        " by zaserwować je z kapustą modrą",
+        "\n\nNa naszej stronie znajdziecie kilka innych pomysłów na kotlety mielone. Szczególnie polecamy przepis na rarytas z dodatkiem majonezu oraz sprawdzony patent na przyrządzenie go w piekarniku",
+        ""
+      ],
+      "types": "Dinner",
+      "cuisines": "Poland",
+      "image": "/image/notFound.svg",
+      "email": "proko.piotr@gmail.com",
+      "id": 19
+    },
+    {
+      "title": "Creamy Curry Chicken With Yellow Rice",
+      "description": "Creamy Curry Chicken With Yellow Rice",
+      "instruction": [
+        "Brak danych",
+        "Melt butter in frying pan, add garlic and stir fry till fragrant.",
+        "Add mushrooms and stir fry for 1/2 min.",
+        "Add white wine and let it evaporate.  Fry for another 1 min, add salt, black pepper, balsamic vinegar, teriyaki sauce and chilly oil. Fry for another minute. Turn heat to low and add parsley and spring onions and mix well and transfer to serving plate.",
+        "Heat the olive oil in a large, heavy-bottom pan over medium heat.",
+        "Add the chicken and cook for 6 to 8 minutes, turning frequently, until lightly browned and cooked through.",
+        "Remove from the pan and set aside.",
+        "Add the onion and saut for a few minutes.",
+        "Add the garlic, cumin, turmeric, ground coriander, garam masala, ginger and cook for one minute.",
+        "Mix the corn starch with the coconut milk until smooth. Return the chicken to the pan and stir in the coconut milk, brown sugar and tomatoes. Cook over medium heat and stir for 1 to 2 minutes. Partially cover and cook for 15 more minutes until the sauce has reduced and thickened. Stir in the lemon juice and season with salt.",
+        "Serve the creamy chicken curry on a bed of yellow rice (I use brown rice cooked in water with salt and 1 teaspoon of turmeric) sprinkled with fresh cilantro."
+      ],
+      "types": [
+        "brak danych"
+      ],
+      "cuisines": "Indian,Asian",
+      "image": "https://spoonacular.com/recipeImages/640634-556x370.jpg",
+      "email": "proko.piotr@gmail.com",
+      "id": 20
+    },
+    {
+      "title": "One Bowl Jalapeno Cheddar Cornbread",
+      "description": "One Bowl Jalapeno Cheddar Cornbread",
+      "instruction": [
+        "Brak danych",
+        "Melt butter in frying pan, add garlic and stir fry till fragrant.",
+        "Add mushrooms and stir fry for 1/2 min.",
+        "Add white wine and let it evaporate.  Fry for another 1 min, add salt, black pepper, balsamic vinegar, teriyaki sauce and chilly oil. Fry for another minute. Turn heat to low and add parsley and spring onions and mix well and transfer to serving plate.",
+        "Heat the olive oil in a large, heavy-bottom pan over medium heat.",
+        "Add the chicken and cook for 6 to 8 minutes, turning frequently, until lightly browned and cooked through.",
+        "Remove from the pan and set aside.",
+        "Add the onion and saut for a few minutes.",
+        "Add the garlic, cumin, turmeric, ground coriander, garam masala, ginger and cook for one minute.",
+        "Mix the corn starch with the coconut milk until smooth. Return the chicken to the pan and stir in the coconut milk, brown sugar and tomatoes. Cook over medium heat and stir for 1 to 2 minutes. Partially cover and cook for 15 more minutes until the sauce has reduced and thickened. Stir in the lemon juice and season with salt.",
+        "Serve the creamy chicken curry on a bed of yellow rice (I use brown rice cooked in water with salt and 1 teaspoon of turmeric) sprinkled with fresh cilantro."
+      ],
+      "types": "bread",
+      "cuisines": "Southern",
+      "image": "https://spoonacular.com/recipeImages/653670-556x370.jpg",
+      "email": "proko.piotr@gmail.com",
+      "id": 21
+    },
+    {
+      "title": "BBQ” Style Chicken Thighs",
+      "description": "BBQ” Style Chicken Thighs",
+      "instruction": [
+        "Brak danych",
+        "Add butter, garlic, onion and cauliflower to a large pot and saute for 5 minutes until cauliflower starts to brown.",
+        "Add flour, chicken bouillon, ground mustard, paprika, salt and mix well, then add 2 cups milk and stir. Reduce heat and boil for 10 minutes, cauliflower should be soft.",
+        "Add to a blender and blend until smooth.",
+        "Transfer back to the pot and add the rest of the milk.",
+        "Add parmesan cheese, cheddar cheese and stir until melted.When cheese is melted and its heated through, serve in bowls and top with bacon, croutons and extra cheese.",
+        "Combine all of the ingredients for the bbq sauce in a small bowl.",
+        "Clean and pat dry the chicken thighs.",
+        "Place in a baking dish and rub the chicken thighs all over with the sauce.",
+        "Place in oven and bake for 40-45 minutes."
+      ],
+      "types": [
+        "brak danych"
+      ],
+      "cuisines": [
+        "brak danych"
+      ],
+      "image": "https://spoonacular.com/recipeImages/634511-556x370.jpg",
+      "email": "proko.piotr@gmail.com",
+      "id": 22
     }
   ]
 }
