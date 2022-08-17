@@ -115,27 +115,13 @@
 .form__input input {
   margin-left: 10px;
 }
-.start__app__button {
-  display: flex;
-  justify-content: center;
-  padding: .7rem 2rem;
-  border-radius: 10px;
-  outline: none;
-  border: 1px solid $primary-color;
-  cursor: pointer;
-  color: $primary-color;
-  background-color: unset;
-  &:hover {
-    box-shadow: 0 0 10px $primary-color;
-  }
-}
 
 :focus {
   outline: none;
 }
 
 .start__app__input__effect{
-  width: 200px;
+  min-width: 200px;
   outline: none;
   border: none;
   border-bottom: 1px solid $primary-color;
@@ -151,7 +137,6 @@ input:-webkit-autofill,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
-
 @media screen and (max-width: 500px){
   .form {
     flex-direction: column;
@@ -174,5 +159,4 @@ input:-webkit-autofill:focus {
   .form__input input {
     margin-left: unset;
   }
-
 }

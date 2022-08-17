@@ -4,6 +4,7 @@ import styles from './Recipe.module.scss';
 import {supabase} from "../../../auth/supabaseClient";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUtensils} from "@fortawesome/free-solid-svg-icons";
+import Button from "../../Button";
 export default function Recipe() {
     const location = useLocation()
     const { recipe } = location.state
@@ -68,7 +69,7 @@ export default function Recipe() {
                         })
                     }
                 </ol>
-                <button className={styles.RecipeButton} onClick={handleClick}>Add to my list!</button>
+                <Button text={'Add to my list!'} onClick={handleClick} />
             </div>
         </div>
     )

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from './supabaseClient';
 import styles from './Account.module.scss';
+import Button from "../components/Button";
 
 const Account = ({ session }) => {
     const [loading, setLoading] = useState(true)
@@ -81,13 +82,10 @@ const Account = ({ session }) => {
                             onChange={(e) => setUsername(e.target.value)}
                         />
                     </div>
-                    <div>
-                        <button
-                            className={styles.start__app__button}
-                            disabled={loading}>
-                            Zaktualizuj dane!
-                        </button>
-                    </div>
+                    <Button
+                        disabled={loading}
+                        text={'Zaktualizuj dane!'}
+                    />
                 </form>
             )}
         </div>

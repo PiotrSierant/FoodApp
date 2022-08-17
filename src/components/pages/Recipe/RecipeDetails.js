@@ -4,6 +4,7 @@ import stylesSpinner from "../../../auth/Auth.module.scss";
 import styles from './RecipeDetails.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEarthEurope, faUtensils} from "@fortawesome/free-solid-svg-icons";
+import {DeleteButton} from "../../Button";
 
 export default function BlogDetails() {
     const {id} = useParams();
@@ -43,7 +44,7 @@ export default function BlogDetails() {
         }
     return (
         <div className={styles.RecipeDetailsContainer}>
-            {error && <h3>{error}</h3>}
+            {error && console.log(error)}
             {loading ? (
                 <div className={stylesSpinner.container__spinner}>
                     <span className={stylesSpinner.loader}></span>
@@ -84,7 +85,7 @@ export default function BlogDetails() {
                                     })
                                 }
                             </ol>
-                            <button className={styles.RecipeDetailsButton} onClick={handleClick}>Delete recipe!</button>
+                            <DeleteButton text={'Delete recipe!'} onClick={handleClick} />
                         </div>
                     </div>
                 </div>

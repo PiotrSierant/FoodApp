@@ -4,6 +4,7 @@ import styles from './RandomRecipe.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUtensils, faEarthEurope} from "@fortawesome/free-solid-svg-icons";
 import {supabase} from "../../../auth/supabaseClient";
+import Button from "../../Button";
 
 export const RandomRecipe = () => {
     let INIT_INSTRUCTION = ['Brak danych'];
@@ -97,7 +98,7 @@ export const RandomRecipe = () => {
                                 }))
                             }
                             </ol>
-                            <button className={styles.randomRecipeButton} onClick={handleClick}>Add recipe to my list</button>
+                            <Button text={'Add recipe to my list'} onClick={handleClick}/>
                         </div>
                     </div>
                 </div>

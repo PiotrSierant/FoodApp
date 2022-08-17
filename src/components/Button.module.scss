@@ -1,0 +1,24 @@
+@import "../variables";
+.button, .deleteButton {
+  display: flex;
+  justify-content: center;
+  padding: .7rem 2rem;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+  color: $primary-color;
+  background-color: unset;
+  width: 100%;
+  &:hover {
+    box-shadow: 0 0 10px $primary-color;
+  }
+}
+.deleteButton {
+  border: 1px solid #ff3333;
+  color: $background-color-light;
+  background-color: #ff3333;
+  &:hover {
+    box-shadow: 0 0 10px #ff3333;
+  }
+}

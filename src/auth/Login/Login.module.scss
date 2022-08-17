@@ -5,57 +5,6 @@
   align-items: center;
   flex-direction: column;
 }
-.start__app__button {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 300px;
-  padding: 15px 25px 15px 15px;
-  border-radius: 10px;
-  outline: none;
-  border: 1px solid $primary-color;
-  cursor: pointer;
-  color: $primary-color;
-  background-color: unset;
-  position: relative;
-}
-.start__app__button::before {
-  content: '';
-  position: absolute;
-  right: -1px;
-  top: -1px;
-  box-sizing: content-box;
-  background-color: $primary-color;
-  width: 60px;
-  height: 103%;
-  border-top-right-radius: 9px;
-  border-bottom-right-radius: 9px;
-}
-.start__app__button_arrow {
-  font-size: 1.2rem;
-  color: $background-color-light;
-  animation: slideIn 4s ease-in-out 0.5s infinite;
-  position: relative;
-  z-index: 10;
-}
-@keyframes slideIn {
-  0% {
-    transform: translateX(3px);
-  }
-
-  50% {
-    transform: translateX(10px);
-  }
-  100% {
-    transform: translateX(3px);
-  }
-}
-.start__app__button:hover {
-  box-shadow: 0 0 5px $primary-color,
-  0 0 10px $primary-color,
-  0 0 25px $primary-color;
-}
-
 :focus {
   outline: none;
 }
