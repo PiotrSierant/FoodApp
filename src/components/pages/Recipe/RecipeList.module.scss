@@ -25,6 +25,9 @@
   padding: 2rem;
   box-shadow: 0 0 5px $secondary-color;
   border-radius: 1rem;
+  &:hover {
+    box-shadow: 0 0 5px $secondary-color, 0 0 10px $secondary-color, 0 0 15px $secondary-color;
+  }
 }
 .recipeLink {
   text-decoration: none;

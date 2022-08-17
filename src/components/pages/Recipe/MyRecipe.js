@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import RecipeList from "./RecipeList";
-import styles from "../../../auth/Auth.module.scss";
+import {Spinner} from "../../Spinner";
 
 export const MyRecipe = () => {
     const [recipes, setRecipes] = useState(null);
@@ -28,17 +28,11 @@ export const MyRecipe = () => {
     return (
         <div>
             { error && <div>{error}</div> }
-            {loading ? (
-                <div className={styles.container__spinner}>
-                    <span className={styles.loader}></span>
-                </div>
-                    ) : (
-                        <div>
-                            {
+            {loading ? <Spinner /> : (
+                        <div> {
                                 recipes && <RecipeList recipes={recipes} />
-                            }
-                        </div>
+                        }</div>
                 )}
-            </div>
+        </div>
     )
 }

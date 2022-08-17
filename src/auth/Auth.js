@@ -3,6 +3,7 @@ import { supabase } from './supabaseClient';
 import styles from './Auth.module.scss';
 import Logo from './Logo/Logo';
 import Login from './Login/Login';
+import {Spinner} from "../components/Spinner";
 export default function Auth() {
     const [loading, setLoading] = useState(false)
     const [email, setEmail] = useState('')
@@ -25,11 +26,7 @@ export default function Auth() {
     return (
         <div className={styles.container}>
             <div aria-live="polite">
-                {loading ? (
-                    <div className={styles.container__spinner}>
-                        <span className={styles.loader}></span>
-                    </div>
-                ) : (
+                {loading ? <Spinner /> : (
                     <div className={styles.container__app}>
                         <Logo />
                         <form onSubmit={handleLogin}>

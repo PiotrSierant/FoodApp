@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { supabase } from './supabaseClient';
 import styles from './Account.module.scss';
 import {Button} from "../components/Button";
+import {Spinner} from "../components/Spinner";
 
 const Account = ({ session }) => {
     const [loading, setLoading] = useState(true)
@@ -65,11 +66,7 @@ const Account = ({ session }) => {
 
     return (
         <div className={styles.container} aria-live="polite">
-            {loading ? (
-                <div className={styles.container__spinner}>
-                    <span className={styles.loader}></span>
-                </div>
-            ) : (
+            {loading ? <Spinner /> : (
                 <form onSubmit={updateProfile} className={styles.form}>
                     <div className={styles.form__email}>Email:<span>{session.user.email}</span> </div>
                     <div className={styles.form__input}>

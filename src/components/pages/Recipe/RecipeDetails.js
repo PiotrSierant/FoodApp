@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from "react";
 import {useParams, useNavigate } from "react-router-dom";
-import stylesSpinner from "../../../auth/Auth.module.scss";
 import styles from './RecipeDetails.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faEarthEurope, faUtensils} from "@fortawesome/free-solid-svg-icons";
 import {DeleteButton} from "../../Button";
+import {Spinner} from "../../Spinner";
 
 export default function BlogDetails() {
     const {id} = useParams();
@@ -45,11 +45,7 @@ export default function BlogDetails() {
     return (
         <div className={styles.RecipeDetailsContainer}>
             {error && console.log(error)}
-            {loading ? (
-                <div className={stylesSpinner.container__spinner}>
-                    <span className={stylesSpinner.loader}></span>
-                </div>
-            ) : (
+            {loading ? <Spinner /> : (
                 <div className={styles.RecipeDetailsBox}>
                     <h2>{recipe.title}</h2>
                     <div>

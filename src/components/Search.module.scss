@@ -1,0 +1,62 @@
+@import "../variables";
+
+:focus {
+  outline: none;
+}
+.containerSearch {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: unset;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+.start__app__input__effect{
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid $primary-color;
+  padding: 15px 25px 15px 15px;
+  color: $primary-color;
+  background-color: unset;
+  transition: 0.4s;
+}
+.icon {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid $primary-color;
+  padding: 18px 0 20px 10px;
+  color: $primary-color;
+  background-color: unset;
+  transition: 0.4s;
+}
+.start__app__input__effect::placeholder {
+  color: $primary-color;
+}
+.start__app__input__effect ~ .start__app__input__focus__border{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: $primary-color;
+  transition: 0.4s;
+}
+.start__app__input__effect:focus ~ .start__app__input__focus__border{
+  width: 100%;
+  transition: 0.4s;
+  left: 0;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}

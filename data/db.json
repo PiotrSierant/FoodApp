@@ -159,6 +159,44 @@
       "image": "https://spoonacular.com/recipeImages/658007-556x370.jpg",
       "email": "proko.piotr@gmail.com",
       "id": 27
+    },
+    {
+      "title": "No Oven Peanut Butter Squares",
+      "description": "No Oven Peanut Butter Squares",
+      "types": "antipasti,starter,snack,appetizer,antipasto,hor d'oeuvre",
+      "cuisines": "",
+      "instruction": [
+        "Line 9\"x13\" pan with foil or wax paper, with ends extending over sides of pan. Melt butter in large bowl in microwave on high for 45 seconds or over stove in pan until melted.",
+        "Remove from heat and stir in sugar, crumbs and peanut butter; mix well.",
+        "Spread mixture into prepared pan. Melt \"Nuggets\" on slow and low heat in microwave or small saucepan until smooth, stirring until melted. Cool slightly, and then pour over peanut butter mixture in pan. Cool.",
+        "Cut partially through mixture to mark squares with desired size. Can refrigerate or wait until it sets. Lift from pan, using handles from foil or wax paper.",
+        "Cut all the way through mixture into squares.",
+        "Serves 24"
+      ],
+      "image": "https://spoonacular.com/recipeImages/653169-556x370.jpg",
+      "email": "frontend.newsletter.sierant@gmail.com",
+      "id": 28
+    },
+    {
+      "title": "Grilled Chicken with Sateay Sauce",
+      "description": "Grilled Chicken with Sateay Sauce",
+      "instruction": [
+        "Whisk together the lemon juice, olive oil, salt, pepper, and thyme.",
+        "Pour over the chicken breasts in a large bowl.",
+        "Cover and marinate in the refrigerator for 6 hours or overnight. (The longer the chicken marinates, the better it will taste).",
+        "Heat the grill and cook the chicken breasts for 10 minutes on each side, until just cooked through.",
+        "Remove from the grill, cover and let stand for a couple of minutes before serving.",
+        "For the Satay Sauce",
+        "Cook the olive oil, sesame oil, red onion, garlic, ginger root, and red pepper flakes in a small, heavy bottomed pot on medium heat until the onion is transparent, 10 to 15 minutes.",
+        "In a bowl whisk in the vinegar, sugar, soy sauce, peanut butter, ketchup, sherry and lime juice.",
+        "Add to the onion mixture and cook for 1 minute.",
+        "Cool and use alongside the chicken."
+      ],
+      "types": "",
+      "cuisines": "",
+      "image": "https://spoonacular.com/recipeImages/645671-556x370.jpg",
+      "email": "frontend.newsletter.sierant@gmail.com",
+      "id": 29
     }
   ]
 }

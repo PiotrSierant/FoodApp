@@ -13,7 +13,7 @@ export function RecipeFull({recipe, onClick}) {
                 <RecipeTypes recipe={recipe.dishTypes} />
                 <RecipeImage recipe={recipe.image} alt={recipe.title}/>
                 <RecipeCuisines recipe={recipe.cuisines} />
-                <RecipeInstruction myRecipe={false} recipe={recipe.analyzedInstructions[0].steps} />
+                <RecipeInstruction myRecipe={false} recipe={recipe.instructions} />
                 <Button text={'Add recipe to my list'} onClick={onClick}/>
             </div>
 }

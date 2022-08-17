@@ -5,7 +5,6 @@ import {faEarthEurope} from "@fortawesome/free-solid-svg-icons";
 
 export function RecipeCuisines({recipe}) {
     recipe.length === 0 && (recipe = ['Brak danych'])
-    console.log(recipe)
     return (
         <div className={styles.typesAndCuisines}>
             <div className={styles.title}>
