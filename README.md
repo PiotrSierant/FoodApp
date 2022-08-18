@@ -1,6 +1,6 @@
 # FoodApp
 FoodApp is an application that will help you find an idea for dinner and more! Randomize recipe, save recipe and add your recipe!
-[DEMO](https://react-app-dzd07.vercel.app/)
+[FoodApp - DEMO](https://foodapp-sierant.vercel.app/)
 
 Technologies that were used :
 * [Supabase](https://supabase.com/)
