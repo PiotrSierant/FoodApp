@@ -15,7 +15,7 @@ export default function RecipeList({recipes}) {
     }, [])
     function searchFn(value) {
         const result = filteredList.filter((element) => {
-            return element.title.toLowerCase().search(value) != -1;
+            return element.title.toLowerCase().search(value) !== -1;
         })
         setFiltrData(result);
     }
