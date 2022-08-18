@@ -1,4 +1,15 @@
 # FoodApp
+FoodApp is an application that will help you find an idea for dinner and more! Randomize recipe, save recipe and add your recipe!
+[DEMO](https://react-app-dzd07.vercel.app/)
+
+Technologies that were used :
+* [Supabase](https://supabase.com/)
+* [React](https://pl.reactjs.org/)
+* [Sass](https://sass-lang.com/)
+* [JSON Server](https://www.npmjs.com/package/json-server)
+
+Api:
+`https://spoonacular.com/food-api`
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
