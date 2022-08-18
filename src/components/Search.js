@@ -1,10 +1,13 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import styles from "./Search.module.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearch} from "@fortawesome/free-solid-svg-icons";
 
-export function Search() {
+export function Search({search}) {
     const [value, setValue] = useState('');
+    useEffect(() => {
+        search(value)
+    }, [value])
     return (
         <section className={styles.containerSearch}>
             <section className={styles.input}>
