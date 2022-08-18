@@ -11,7 +11,7 @@ export default function Login({email, setEmail}) {
                     type="email"
                     placeholder="Your email"
                     value={email}
-                    onChange={(e) => setEmail(e.target.value)}
+                    onChange={(e) => setEmail(e.target.value.trim())}
                 />
                 <span className={styles.start__app__input__focus__border}></span>
             </div>
