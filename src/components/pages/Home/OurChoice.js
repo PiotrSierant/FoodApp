@@ -28,7 +28,7 @@ export default function OurChoice() {
     }
     return (
         <section className={styles.ourChoiceContainer}>
-            <h3>Our choice recipe:</h3>
+            <h2>Our choice recipe:</h2>
             <Splide options={{
                 perPage: 5,
                 drag: 'free',

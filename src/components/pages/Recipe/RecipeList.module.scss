@@ -28,6 +28,17 @@
   &:hover {
     box-shadow: 0 0 5px $secondary-color, 0 0 10px $secondary-color, 0 0 15px $secondary-color;
   }
+  h3 {
+    color: $secondary-color;
+  }
+  p {
+    text-align: justify;
+    line-height: 1.8rem;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }
 }
 .recipeLink {
   text-decoration: none;

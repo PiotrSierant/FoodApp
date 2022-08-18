@@ -29,7 +29,7 @@ export default function Popular() {
 
     return (
         <section className={styles.popularContainer}>
-            <h3>Popular recipe:</h3>
+            <h2>Popular recipe:</h2>
             <Splide options={{
                 perPage: 3,
                 drag: 'free',

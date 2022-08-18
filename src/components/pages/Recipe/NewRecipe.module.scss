@@ -7,9 +7,10 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  h3 {
-    margin-top: 2rem;
+  h2 {
+    margin-top: 4rem;
     margin-bottom: 1rem;
+    color: $secondary-color;
   }
 }
 .form {

@@ -1,8 +1,13 @@
+@import "../../../variables";
 .popularContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  margin-top: 2rem;
+  h2 {
+    color: $secondary-color;
+  }
 }
 .PopularLink {
   cursor: pointer;

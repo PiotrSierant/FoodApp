@@ -28,7 +28,7 @@ export const NewRecipe = () => {
     }
     return (
         <div className={styles.newPostContainer}>
-            <h3>New post</h3>
+            <h2>New post</h2>
             <form className={styles.form} onSubmit={handleSubmit}>
                 <label>Title</label>
                 <div className={styles.input}>
