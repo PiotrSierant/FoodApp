@@ -17,19 +17,17 @@ export const RandomRecipe = () => {
                 const {recipes} = response
                 const item = recipes[0]
                 setRecipe(item);
-                console.log(item)
             })
             .catch(() => console.error('Brak dostępnych zapytań do api'))
     }, []);
 
     function addRecipe() {
         const title = recipe.title;
-        const description = recipe.title;
-        const types = recipe.dishTypes.join();
+        const summary = recipe.summary;
         const image = recipe.image;
-        const cuisines = recipe.cuisines.join();
-        const instruction = recipe.instructions;
-        const recipeDetail = {title, description, types, cuisines, instruction, image, email}
+        const extendedIngredients = recipe.extendedIngredients;
+        const instructions = recipe.instructions;
+        const recipeDetail = {title, summary, image, extendedIngredients, instructions, email}
         fetch('http://localhost:8000/recipes', {
             method: 'POST',
             headers: { "Content-Type": "application/json"},
@@ -38,11 +36,11 @@ export const RandomRecipe = () => {
             navigate('/my_recipe')
         });
     }
-    return <div className={styles.container}>
+    return <main className={styles.container}>
         {
             recipe
-                ? <RecipeFull recipe={recipe} onClick={addRecipe} />
+                ? <RecipeFull recipe={recipe} onClick={addRecipe} button={false} />
                 : <RecipeError />
         }
-    </div>
+    </main>
 }

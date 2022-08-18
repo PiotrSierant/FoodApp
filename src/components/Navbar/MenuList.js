@@ -1,27 +1,27 @@
 export const MenuList = [
     {
         id: 1,
-        title: 'Strona główna',
+        title: 'Home',
         url: '/',
     },
     {
         id: 2,
-        title: 'Dodaj przepis',
+        title: 'Add recipe',
         url: '/add_recipe',
     },
     {
         id: 3,
-        title: 'Moje przepisy',
+        title: 'My recipe',
         url: '/my_recipe',
     },
     {
         id: 4,
-        title: 'Losuj przepis',
+        title: 'Random recipe',
         url: '/random_recipe',
     },
     {
         id: 5,
-        title: 'Mój profil',
+        title: 'My profile',
         url: '/about',
     },
 ];

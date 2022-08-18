@@ -6,9 +6,9 @@ import OurChoice from "./OurChoice";
 export const Home = () => {
 
     return(
-        <div className={styles.homeContainer}>
+        <main className={styles.homeContainer}>
             <Popular />
             <OurChoice />
-        </div>
+        </main>
     )
 }

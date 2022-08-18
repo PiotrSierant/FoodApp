@@ -7,23 +7,21 @@ import {Button} from "../../Button";
 export const NewRecipe = () => {
     const INIT_IMAGE = '/image/notFound.svg';
     const [title, setTitle] = useState('')
-    const [description, setDescription] = useState('')
-    const [instruction, setInstruction] = useState('')
-    const [types, setTypes] = useState('')
-    const [cuisines, setCuisines] = useState('')
+    const [summary, setSummary] = useState('')
+    const [instructions, setInstructions] = useState('')
+    const [extendedIngredients, setExtendedIngredients] = useState('')
     const [image, setImage] = useState(INIT_IMAGE)
     const navigate = useNavigate();
-    const user = supabase.auth.user()
-    const email = user.email
+    const email = supabase.auth.user().email
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        const recipe = {title, description, instruction, types, cuisines, image, email}
+        const recipeDetail = {title, summary, image, extendedIngredients, instructions, email}
 
         fetch('http://localhost:8000/recipes', {
             method: 'POST',
             headers: { "Content-Type": "application/json"},
-            body: JSON.stringify(recipe)
+            body: JSON.stringify(recipeDetail)
         }).then(() => {
             navigate('/my_recipe');
         });
@@ -39,7 +37,7 @@ export const NewRecipe = () => {
                         type='text'
                         required
                         value={title}
-                        placeholder='Podaj tytuł potrawy'
+                        placeholder='Enter the title of the dish'
                         onChange={(event) => setTitle(event.target.value)}
                     />
                     <span className={styles.start__app__input__focus__border}></span>
@@ -51,7 +49,7 @@ export const NewRecipe = () => {
                         type='text'
                         value={image}
                         disabled={true}
-                        placeholder='Podaj adres url obrazu(optional)'
+                        placeholder='Enter the url of the image (optional)'
                         onChange={(event) => setImage(event.target.value)}
                     />
                     <span className={styles.start__app__input__focus__border}></span>
@@ -62,33 +60,21 @@ export const NewRecipe = () => {
                         className={styles.start__app__input__effect}
                         type='text'
                         required
-                        value={description}
-                        placeholder='Podaj opis potrawy'
-                        onChange={(event) => setDescription(event.target.value)}
+                        value={summary}
+                        placeholder='Enter a description of the dish'
+                        onChange={(event) => setSummary(event.target.value)}
                     />
                     <span className={styles.start__app__input__focus__border}></span>
                 </div>
-                <label>Types</label>
+                <label>Ingredients</label>
                 <div className={styles.input}>
                     <input
                         className={styles.start__app__input__effect}
                         type='text'
                         required
-                        value={types}
-                        placeholder='Wymień wszystkie typy oddzielając nazwy przecinkiem'
-                        onChange={(event) => setTypes(event.target.value)}
-                    />
-                    <span className={styles.start__app__input__focus__border}></span>
-                </div>
-                <label>Cuisines</label>
-                <div className={styles.input}>
-                    <input
-                        className={styles.start__app__input__effect}
-                        type='text'
-                        required
-                        value={cuisines}
-                        placeholder='Wymień wszystkie kuchnie oddzielając nazwy przecinkiem'
-                        onChange={(event) => setCuisines(event.target.value)}
+                        value={extendedIngredients}
+                        placeholder='List all ingredients, separating the names with a comma'
+                        onChange={(event) => setExtendedIngredients(event.target.value.split(','))}
                     />
                     <span className={styles.start__app__input__focus__border}></span>
                 </div>
@@ -96,13 +82,13 @@ export const NewRecipe = () => {
                 <div className={styles.input}>
                     <textarea
                         className={styles.start__app__input__effect}
-                        placeholder='Wymień wszystkie instrukcje przygotowania posiłku oddzielając je przecinkiem'
+                        placeholder='Write the instructions for preparing the meal.'
                         required
-                        value={instruction}
-                        onChange={(event) => setInstruction(event.target.value.split(','))}
+                        value={instructions}
+                        onChange={(event) => setInstructions(event.target.value.replace(/\\\\n|\\n|\n/g, ''))}
                     ></textarea>
                 </div>
-                <Button text={'Add new recipe'} onClick={() => console.log('Przepis dodany!')}/>
+                <Button text={'Add new recipe'} onClick={() => console.log('Recipe added!')}/>
             </form>
         </div>
     )

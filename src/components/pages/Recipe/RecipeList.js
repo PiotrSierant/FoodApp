@@ -11,9 +11,9 @@ export default function RecipeList({recipes}) {
     });
 
     return (
-        <div className={styles.recipeListContainer}>
-            <div className={styles.recipeList}>
-                <h2 className={styles.recipeListHead}>Moje przepisy</h2>
+        <section className={styles.recipeListContainer}>
+            <section className={styles.recipeList}>
+                <h2 className={styles.recipeListHead}>My recipes</h2>
                 <Search />
                     {
                         filteredList.map((recipe) => (
@@ -24,12 +24,12 @@ export default function RecipeList({recipes}) {
                             >
                                 <div className={styles.recipeContainer}>
                                     <h3>{recipe.title}</h3>
-                                    <p>{recipe.description}</p>
+                                    <p dangerouslySetInnerHTML={{__html: recipe.summary }}></p>
                                 </div>
                             </Link>
                         ))
                     }
-            </div>
-        </div>
+            </section>
+        </section>
     )
 }

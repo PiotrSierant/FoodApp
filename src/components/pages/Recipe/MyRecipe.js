@@ -26,13 +26,13 @@ export const MyRecipe = () => {
             })
     }, [])
     return (
-        <div>
+        <main>
             { error && <div>{error}</div> }
             {loading ? <Spinner /> : (
-                        <div> {
+                        <section> {
                                 recipes && <RecipeList recipes={recipes} />
-                        }</div>
+                        }</section>
                 )}
-        </div>
+        </main>
     )
 }

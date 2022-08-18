@@ -24,17 +24,17 @@ export default function Auth() {
     }
 
     return (
-        <div className={styles.container}>
-            <div aria-live="polite">
+        <main className={styles.container}>
+            <section aria-live="polite">
                 {loading ? <Spinner /> : (
-                    <div className={styles.container__app}>
+                    <section className={styles.container__app}>
                         <Logo />
                         <form onSubmit={handleLogin}>
                             <Login email={email} setEmail={setEmail}/>
                         </form>
-                    </div>
+                    </section>
                 )}
-            </div>
-        </div>
+            </section>
+        </main>
     )
 }

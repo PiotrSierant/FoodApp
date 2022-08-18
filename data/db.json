@@ -1,202 +1,2013 @@
 {
   "recipes": [
     {
-      "title": "Kotlety mielone po śląsku. Przepis na kultowe karminadle",
-      "description": "Kotlety mielone po śląsku są pysznym daniem regionalnym, które od klasycznego mięsnego rarytasu odróżnia dodatek zrumienionej cebuli i smażenie z wykorzystaniem smalcu. Te z pozoru drobne zmiany sprawiają, że danie jest pełne smaku, soczyste i niezwykle aromatyczne. Koniecznie spróbujcie — tak dobrego obiadu dawno ni jedliście.",
-      "instruction": [
-        "Bułkę namaczamy w mleku",
-        " by nieco zmiękła. Cebule obieramy",
-        " po czym kroimy ją w drobną kostkę. Na patelni roztapiamy nieco smalcu i rumienimy rozdrobnione warzywo. Przenosimy je do większej miski",
-        "\nDodajemy zmielone mięso oraz rozgniecione przy pomocy widelca pieczywo. Wsypujemy nieco soli i pieprzu. Na koniec wbijamy jajo i sprawnie wyrabiamy masę na kotlety. Następnie wilgotnymi dłońmi formujemy niezbyt duże kulki",
-        "\n\nSpłaszczamy je",
-        " po czym dokładnie obtaczamy w bułce tartej. Tak przygotowane karminadle smażymy na solidnej i dobrze rozgrzanej porcji smalcu",
-        "\n\nGdy będą rumiane z obu stron",
-        " przenosimy je na bibułę",
-        " by usunąć nadmiar tłuszczu. Kotlety mielone po śląsku podajemy z wybranymi dodatkami. Nic nie stoi na przeszkodzie",
-        " by zaserwować je z kapustą modrą",
-        "\n\nNa naszej stronie znajdziecie kilka innych pomysłów na kotlety mielone. Szczególnie polecamy przepis na rarytas z dodatkiem majonezu oraz sprawdzony patent na przyrządzenie go w piekarniku",
-        ""
+      "title": "Trinidadian Chicken Potato Curry",
+      "summary": "If you want to add more <b>Indian</b> recipes to your recipe box, Trinidadian Chicken Potato Curry might be a recipe you should try. Watching your figure? This gluten free, dairy free, and whole 30 recipe has <b>554 calories</b>, <b>35g of protein</b>, and <b>37g of fat</b> per serving. For <b>$1.54 per serving</b>, this recipe <b>covers 24%</b> of your daily requirements of vitamins and minerals. This recipe serves 4. This recipe from Foodista requires , thyme, coconut oil, and . 11 person have tried and liked this recipe. A few people really liked this main course. From preparation to the plate, this recipe takes about <b>about 45 minutes</b>. All things considered, we decided this recipe <b>deserves a spoonacular score of 64%</b>. This score is solid. Similar recipes are <a href=\"https://spoonacular.com/recipes/toms-trinidadian-chicken-curry-17227\">Tom’s Trinidadian Chicken Curry</a>, <a href=\"https://spoonacular.com/recipes/trinidadian-chicken-curry-with-coconut-grits-collard-greens-716731\">Trinidadian Chicken Curry with Coconut Grits & Collard Greens</a>, and <a href=\"https://spoonacular.com/recipes/chicken-sweet-potato-curry-220244\">Chicken & sweet potato curry</a>.",
+      "image": "https://spoonacular.com/recipeImages/663824-556x370.jpg",
+      "extendedIngredients": [
+        {
+          "id": 1005091,
+          "aisle": "Meat",
+          "image": "chicken-thigh.jpg",
+          "consistency": "SOLID",
+          "name": "bone in chicken thighs",
+          "nameClean": "bone in skin on chicken thighs",
+          "original": "2 lbs chicken thighs, bone in and skin on",
+          "originalName": "chicken thighs, bone in and skin on",
+          "amount": 2,
+          "unit": "lbs",
+          "meta": [
+            "bone in"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "lb",
+              "unitLong": "pounds"
+            },
+            "metric": {
+              "amount": 907.185,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 10511282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "SOLID",
+          "name": "yellow onion",
+          "nameClean": "yellow onion",
+          "original": "½ yellow onion, diced",
+          "originalName": "yellow onion, diced",
+          "amount": 0.5,
+          "unit": "",
+          "meta": [
+            "diced",
+            "yellow"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "SOLID",
+          "name": "garlic cloves",
+          "nameClean": "garlic",
+          "original": "3 garlic cloves, roughly chopped",
+          "originalName": "garlic cloves, roughly chopped",
+          "amount": 3,
+          "unit": "",
+          "meta": [
+            "roughly chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 2049,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "thyme.jpg",
+          "consistency": "SOLID",
+          "name": "fresh thyme",
+          "nameClean": "thyme",
+          "original": "1 Tsp. fresh thyme",
+          "originalName": "fresh thyme",
+          "amount": 1,
+          "unit": "Tsp",
+          "meta": [
+            "fresh"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 10011819,
+          "aisle": "Produce;Ethnic Foods",
+          "image": "habanero-pepper.jpg",
+          "consistency": "SOLID",
+          "name": "scotch bonnet pepper",
+          "nameClean": "habanero chili",
+          "original": "1 Tsp. scotch bonnet pepper sauce",
+          "originalName": "scotch bonnet pepper sauce",
+          "amount": 1,
+          "unit": "Tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 2021,
+          "aisle": "Spices and Seasonings",
+          "image": "ginger.png",
+          "consistency": "SOLID",
+          "name": "powdered ginger",
+          "nameClean": "ginger powder",
+          "original": "¼ Tsp. powdered ginger",
+          "originalName": "powdered ginger",
+          "amount": 0.25,
+          "unit": "Tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 2015,
+          "aisle": "Spices and Seasonings",
+          "image": "curry-powder.jpg",
+          "consistency": "SOLID",
+          "name": "curry powder",
+          "nameClean": "curry powder",
+          "original": "¼ tsp. curry powder",
+          "originalName": "curry powder",
+          "amount": 0.25,
+          "unit": "tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 4047,
+          "aisle": "Health Foods;Baking",
+          "image": "oil-coconut.jpg",
+          "consistency": "LIQUID",
+          "name": "coconut oil",
+          "nameClean": "coconut oil",
+          "original": "1 Tsp. coconut oil",
+          "originalName": "coconut oil",
+          "amount": 1,
+          "unit": "Tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 11165,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "cilantro.png",
+          "consistency": "SOLID",
+          "name": "cilantro",
+          "nameClean": "cilantro",
+          "original": "1 Tsp. cilantro, finely chopped",
+          "originalName": "cilantro, finely chopped",
+          "amount": 1,
+          "unit": "Tsp",
+          "meta": [
+            "finely chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 11291,
+          "aisle": "Produce",
+          "image": "spring-onions.jpg",
+          "consistency": "SOLID",
+          "name": "scallion",
+          "nameClean": "spring onions",
+          "original": "1 scallion",
+          "originalName": "scallion",
+          "amount": 1,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 4513,
+          "aisle": null,
+          "image": null,
+          "consistency": "SOLID",
+          "name": "vegetable oil",
+          "nameClean": null,
+          "original": "1 Tbsp. vegetable oil",
+          "originalName": "vegetable oil",
+          "amount": 1,
+          "unit": "Tbsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 10511282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "SOLID",
+          "name": "yellow onion",
+          "nameClean": "yellow onion",
+          "original": "½ yellow onion, sliced",
+          "originalName": "yellow onion, sliced",
+          "amount": 0.5,
+          "unit": "",
+          "meta": [
+            "yellow",
+            "sliced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "SOLID",
+          "name": "garlic cloves",
+          "nameClean": "garlic",
+          "original": "3 garlic cloves, minced",
+          "originalName": "garlic cloves, minced",
+          "amount": 3,
+          "unit": "",
+          "meta": [
+            "minced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 2015,
+          "aisle": "Spices and Seasonings",
+          "image": "curry-powder.jpg",
+          "consistency": "SOLID",
+          "name": "curry powder",
+          "nameClean": "curry powder",
+          "original": "1 ½ Tbsp. curry powder",
+          "originalName": "curry powder",
+          "amount": 1.5,
+          "unit": "Tbsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1.5,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 1.5,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 10293663,
+          "aisle": "Ethnic Foods;Spices and Seasonings",
+          "image": "ground-cumin.jpg",
+          "consistency": "SOLID",
+          "name": "amchar masala",
+          "nameClean": "amchar masala",
+          "original": "1 Tsp. amchar masala",
+          "originalName": "amchar masala",
+          "amount": 1,
+          "unit": "Tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 1002014,
+          "aisle": "Spices and Seasonings",
+          "image": "ground-cumin.jpg",
+          "consistency": "SOLID",
+          "name": "cumin",
+          "nameClean": "cumin",
+          "original": "½ Tsp. cumin",
+          "originalName": "cumin",
+          "amount": 0.5,
+          "unit": "Tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 2047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt.jpg",
+          "consistency": "SOLID",
+          "name": "salt",
+          "nameClean": "table salt",
+          "original": "½ Tsp. salt",
+          "originalName": "salt",
+          "amount": 0.5,
+          "unit": "Tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 14412,
+          "aisle": "Beverages",
+          "image": "water.png",
+          "consistency": "LIQUID",
+          "name": "water",
+          "nameClean": "water",
+          "original": "1 cup of water",
+          "originalName": "water",
+          "amount": 1,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "cup",
+              "unitLong": "cup"
+            },
+            "metric": {
+              "amount": 236.588,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 11352,
+          "aisle": "Produce",
+          "image": "potatoes-yukon-gold.png",
+          "consistency": "SOLID",
+          "name": "potatoes",
+          "nameClean": "potato",
+          "original": "2 potatoes, cut into large cubes",
+          "originalName": "potatoes, cut into large cubes",
+          "amount": 2,
+          "unit": "",
+          "meta": [
+            "cut into large cubes"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        }
       ],
-      "types": "",
-      "cuisines": "Poland",
-      "image": "/image/notFound.svg",
+      "instructions": "Wash and pat dry chicken thighs. In a sealable container, combine all marinade ingredients. Toss chicken in marinade, cover and refrigerate for at least 2 hours.\nIn a Dutch oven, heat vegetable oil over medium high heat. Add onions and saut until tender. Add garlic and continue to saut until fragrant.\nSprinkle onions and garlic with curry powder and stir to evenly coat. Add 1 tablespoon of water and cook for one minute, stirring constantly.\nAdd chicken and marinade. Saut until lightly browned, about 5 minutes.\nIf you want a thick curry add potatoes now, otherwise set aside.\nSprinkle chicken with amchar masala, cumin and salt. Toss to coat. Pour in one cup of water and bring to a boil.\nReduce heat, cover pot and simmer for 20 minutes. If you reserved the potatoes for a thinner curry, add them to the pot after twenty minutes.\nContinue to simmer for an additional twenty minutes until chicken reaches an internal temperature of 165 F and potatoes are cooked through.\nServe warm with roti or rice.",
       "email": "proko.piotr@gmail.com",
-      "id": 19
-    },
-    {
-      "title": "Tangy & Savory Mexican Soup",
-      "description": "Tangy & Savory Mexican Soup",
-      "types": "soup",
-      "cuisines": "",
-      "instruction": [
-        "Lightly brown beef or chicken, make sure there is still some pink. If you brown it too much it will taste \"dry\" in the soup.Bring stock to a boil with tomato paste/sauce. Stir in meat, garlic, chili flakes, zucchini, carrots, onions &amp; bell peppers. Simmer for about 15-30 minutes or till veggies are tender, but still slightly crunchy.",
-        "Add in lime juice and season to taste with oregano, rosemary, thyme, sea salt &amp; pepper.",
-        "Serve with garnishes."
-      ],
-      "image": "https://spoonacular.com/recipeImages/662850-556x370.jpg",
-      "email": "proko.piotr@gmail.com",
-      "id": 21
-    },
-    {
-      "title": "Chili Pie with Green Chile and Cheddar Cornbread Crust",
-      "description": "Chili Pie with Green Chile and Cheddar Cornbread Crust",
-      "types": "lunch,main course,main dish,dinner",
-      "cuisines": "Southern",
-      "instruction": [
-        "In a large skillet saute onion in oil until soft and translucent, seasoning with salt and pepper.",
-        "Add garlic and saute until fragrant.",
-        "Remove 2/3 of the mixture from pan and set aside.",
-        "Add green chilies with their juices and saute for 2-3 minutes.",
-        "Remove and set aside in a separate bowl.In the same skillet brown ground beef, crumbling it as it cooks. When cooked through carefully drain grease.",
-        "Add the onion mixture, chili powder, Worcestershire, oregano, paprika, cinnamon, nutmeg, and water.",
-        "Mix thoroughly and continue cooking over medium-low heat as you add the tomatoes with juices, the beans and corn.",
-        "Mix well and cook for 3-4 minutes.Preheat oven to 400 degrees and grease a 9x13 inch casserole dish.",
-        "Pour the meat mixture in and spread evenly over bottom.",
-        "Sprinkle two cups of the cheese over top.In a large bowl combine the flour, cornmeal, baking powder and salt.In a separate medium bowl whisk the eggs, milk, butter and sour cream.",
-        "Add this mixture to the dry mix and stir together.",
-        "Add the onion/green chile mixture and the remaining cup of cheese. Stir in.",
-        "Pour over top of the meat mixture.",
-        "Spread evenly.",
-        "Sprinkle Chile powder over top.",
-        "Bake 25-30 minutes or until a toothpick comes clean from center of cornbread.",
-        "Let set for 10 minutes before serving."
-      ],
-      "image": "https://spoonacular.com/recipeImages/638568-556x370.jpg",
-      "email": "proko.piotr@gmail.com",
-      "id": 22
-    },
-    {
-      "title": "Whole Wheat Chocolate Chip Cookies",
-      "description": "Whole Wheat Chocolate Chip Cookies",
-      "types": "antipasti,starter,snack,appetizer,antipasto,hor d'oeuvre",
-      "cuisines": "",
-      "instruction": [
-        "Place two racks in the upper and lower thirds of the oven and preheat to 350F. Line two baking sheets with parchment paper.Sift the dry ingredients into a large bowl, pouring back into the bowl any bits of grain or other ingredients that may remain in the sifter.",
-        "Add the butter and the sugars. Beat with a standing mixer fitted with a paddle attachment. With the mixer on low-speed, mix just until the butter and sugars are blended, about 2 minutes. Use a spatula to scrape down the sides of the bowl.",
-        "Add the eggs one at a time, mixing until each is combined.",
-        "Mix in the vanilla.",
-        "Add the flour mixture to the bowl and blend on low-speed until the flour is barely combined, about 30 seconds, scraping down the sides and bottom of the bowl",
-        "Add the chocolate all at once and mix on low-speed until the chocolate is evenly combined. Use a spatula to scrape down the sides and bottom of the bowl, then scrape the batter out onto a work surface, and use your hands to fully incorporate all the ingredients.Scoop mounds of dough about 3 tablespoons in size onto the baking sheet, leaving 3 inches between them, or about 6 to a sheet.",
-        "Bake the cookies for 16 to 20 minutes, rotating the sheets halfway through, until the cookies are evenly brown.",
-        "Transfer the cookies, still on the parchment, to the counter to cool. Give them a quick sprinkling with a pinch of sea salt.Repeat with the remaining dough.These cookies are best eaten warm from the oven or later that same day. They also keep beautifully in the freezer, either by freezing the dough or freezing the cookies once they're cooled. 20-30 seconds in the microwave is all you need to warm one up!"
-      ],
-      "image": "https://spoonacular.com/recipeImages/665276-556x370.jpg",
-      "email": "proko.piotr@gmail.com",
-      "id": 23
-    },
-    {
-      "title": "Honeyed Bacon\" Baklava",
-      "description": "Honeyed Bacon\" Baklava",
-      "types": [],
-      "cuisines": [
-        "Middle Eastern"
-      ],
-      "instruction": [
-        "In large bowl of food processor, add walnuts, bacon, sugar, and cinnamon. Pulse until walnuts and bacon are chopped; set aside. (Be sure to fry the bacon to a crispy stage. Then it will chop up finely and evenly.)",
-        "Cut phyllo into 13\" by 9\" rectangles. In greased 13\" by 9\" baking dish, place 1 phyllo sheet; brush with melted butter. Repeat with phyllo and butter to make 5 more layers, overlapping any small strips of phyllo to make rectangles, if necessary.",
-        "Over phyllo in baking dish, sprinkle 1 cup walnut mixture.",
-        "Repeat steps 2 and 3 to make 3 more layers (4 layers total).",
-        "Place remaining phyllo on top of last walnut layer; brush with butter.",
-        "With sharp knife, cut just halfway through layers in triangle or diamond pattern.",
-        "Bake in 300 degree oven for 1 hour and 25 minutes or until top is golden brown.",
-        "In small saucepan over medium-low heat, heat honey until hot but not boiling. Evenly spoon hot honey over hot baklava.",
-        "Cool Baklava in dish on wire rack at least 1 hour; cover with foil and let stand at room temperature until serving.",
-        "To serve, finish cutting, with a sharp knife, through layers to make triangles or diamonds."
-      ],
-      "image": "https://spoonacular.com/recipeImages/631783-556x370.jpg",
-      "email": "proko.piotr@gmail.com",
-      "id": 24
+      "id": 1
     },
     {
       "title": "Grilled Chicken with Sateay Sauce",
-      "description": "Grilled Chicken with Sateay Sauce",
-      "instruction": [
-        "Whisk together the lemon juice, olive oil, salt, pepper, and thyme.",
-        "Pour over the chicken breasts in a large bowl.",
-        "Cover and marinate in the refrigerator for 6 hours or overnight. (The longer the chicken marinates, the better it will taste).",
-        "Heat the grill and cook the chicken breasts for 10 minutes on each side, until just cooked through.",
-        "Remove from the grill, cover and let stand for a couple of minutes before serving.",
-        "For the Satay Sauce",
-        "Cook the olive oil, sesame oil, red onion, garlic, ginger root, and red pepper flakes in a small, heavy bottomed pot on medium heat until the onion is transparent, 10 to 15 minutes.",
-        "In a bowl whisk in the vinegar, sugar, soy sauce, peanut butter, ketchup, sherry and lime juice.",
-        "Add to the onion mixture and cook for 1 minute.",
-        "Cool and use alongside the chicken."
-      ],
-      "types": "",
-      "cuisines": "",
+      "summary": "If you want to add more <b>gluten free and dairy free</b> recipes to your recipe box, Grilled Chicken with Sateay Sauce might be a recipe you should try. This recipe makes 4 servings with <b>938 calories</b>, <b>58g of protein</b>, and <b>65g of fat</b> each. For <b>$3.47 per serving</b>, this recipe <b>covers 34%</b> of your daily requirements of vitamins and minerals. A mixture of sherry, olive oil, small-diced onion, and a handful of other ingredients are all it takes to make this recipe so delicious. <b>The Fourth Of July</b> will be even more special with this recipe. Only a few people made this recipe, and 9 would say it hit the spot. From preparation to the plate, this recipe takes around <b>around 45 minutes</b>. It is brought to you by Foodista. Taking all factors into account, this recipe <b>earns a spoonacular score of 74%</b>, which is solid. Similar recipes include <a href=\"https://spoonacular.com/recipes/grilled-chicken-wings-with-spicy-chipotle-hot-sauce-and-blue-cheese-yogurt-dipping-sauce-320519\">Grilled Chicken Wings with Spicy Chipotle Hot Sauce and Blue Cheese-Yogurt Dipping Sauce</a>, <a href=\"https://spoonacular.com/recipes/cornell-chicken-grilled-chicken-with-white-barbecue-sauce-195842\">Cornell Chicken (Grilled Chicken With White Barbecue Sauce)</a>, and <a href=\"https://spoonacular.com/recipes/biltmore-estate-chicken-breasts-over-rigatoni-rich-gorgonzola-sauce-covers-grilled-chicken-and-pasta-599145\">Biltmore Estate Chicken Breasts Over Rigatoni – rich Gorgonzola sauce covers grilled chicken and pasta</a>.",
       "image": "https://spoonacular.com/recipeImages/645671-556x370.jpg",
+      "extendedIngredients": [
+        {
+          "id": 9152,
+          "aisle": "Produce",
+          "image": "lemon-juice.jpg",
+          "consistency": "LIQUID",
+          "name": "lemon juice",
+          "nameClean": "lemon juice",
+          "original": "¾ cup freshly squeezed lemon juice (4-5 lemons)",
+          "originalName": "freshly squeezed lemon juice (4-5 lemons)",
+          "amount": 0.75,
+          "unit": "cup",
+          "meta": [
+            "freshly squeezed",
+            "(4-5 lemons)"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.75,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 177.441,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 4053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "LIQUID",
+          "name": "olive oil",
+          "nameClean": "olive oil",
+          "original": "¾ cup good olive oil",
+          "originalName": "good olive oil",
+          "amount": 0.75,
+          "unit": "cup",
+          "meta": [
+            "good"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.75,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 177.441,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 2047,
+          "aisle": "Spices and Seasonings",
+          "image": "salt.jpg",
+          "consistency": "SOLID",
+          "name": "salt",
+          "nameClean": "table salt",
+          "original": "2 teaspoons salt",
+          "originalName": "salt",
+          "amount": 2,
+          "unit": "teaspoons",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 2049,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "thyme.jpg",
+          "consistency": "SOLID",
+          "name": "fresh thyme leaves",
+          "nameClean": "thyme",
+          "original": "1 tablespoon minced fresh thyme leaves",
+          "originalName": "minced fresh thyme leaves",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [
+            "fresh",
+            "minced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 1055062,
+          "aisle": "Meat",
+          "image": "chicken-breasts.png",
+          "consistency": "SOLID",
+          "name": "skinless boneless chicken breasts",
+          "nameClean": "boneless skinless chicken breast",
+          "original": "2-pound boneless chicken breasts, halved and skinless",
+          "originalName": "boneless chicken breasts, halved and skinless",
+          "amount": 2,
+          "unit": "pound",
+          "meta": [
+            "boneless",
+            "skinless",
+            "halved"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "lb",
+              "unitLong": "pounds"
+            },
+            "metric": {
+              "amount": 907.185,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 4053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "LIQUID",
+          "name": "olive oil",
+          "nameClean": "olive oil",
+          "original": "1-tablespoon good olive oil",
+          "originalName": "good olive oil",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [
+            "good"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 1004058,
+          "aisle": "Ethnic Foods",
+          "image": "sesame-oil.png",
+          "consistency": "LIQUID",
+          "name": "dark sesame oil",
+          "nameClean": "dark sesame oil",
+          "original": "1-tablespoon dark sesame oil",
+          "originalName": "dark sesame oil",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [
+            "dark"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 11282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "SOLID",
+          "name": "onion",
+          "nameClean": "onion",
+          "original": "2/3-cup small-diced red onion",
+          "originalName": "diced red onion",
+          "amount": 0.6666667,
+          "unit": "cup",
+          "meta": [
+            "red"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.667,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 157.725,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "SOLID",
+          "name": "garlic",
+          "nameClean": "garlic",
+          "original": "1 ½ teaspoons minced garlic",
+          "originalName": "minced garlic",
+          "amount": 1.5,
+          "unit": "teaspoons",
+          "meta": [
+            "minced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 1.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 11216,
+          "aisle": "Produce;Ethnic Foods;Spices and Seasonings",
+          "image": "ginger.png",
+          "consistency": "SOLID",
+          "name": "fresh ginger root",
+          "nameClean": "ginger",
+          "original": "1 ½ minced fresh ginger root",
+          "originalName": "minced fresh ginger root",
+          "amount": 1.5,
+          "unit": "",
+          "meta": [
+            "fresh",
+            "minced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1.5,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 1.5,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 1032009,
+          "aisle": "Spices and Seasonings",
+          "image": "red-pepper-flakes.jpg",
+          "consistency": "SOLID",
+          "name": "red pepper flakes",
+          "nameClean": "red pepper flakes",
+          "original": "¼ teaspoon crushed red wine pepper flakes",
+          "originalName": "crushed red wine pepper flakes",
+          "amount": 0.25,
+          "unit": "teaspoon",
+          "meta": [
+            "red",
+            "crushed"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.25,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1022068,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "red-wine-vinegar.jpg",
+          "consistency": "LIQUID",
+          "name": "red wine vinegar",
+          "nameClean": "red wine vinegar",
+          "original": "2 tablespoons good red wine vinegar",
+          "originalName": "good red wine vinegar",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [
+            "red",
+            "good"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 19334,
+          "aisle": "Baking",
+          "image": "light-brown-sugar.jpg",
+          "consistency": "SOLID",
+          "name": "light brown sugar",
+          "nameClean": "golden brown sugar",
+          "original": "¼ cup light brown sugar packed",
+          "originalName": "light brown sugar packed",
+          "amount": 0.25,
+          "unit": "cup",
+          "meta": [
+            "light",
+            "packed"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 59.147,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 16124,
+          "aisle": "Ethnic Foods;Condiments",
+          "image": "soy-sauce.jpg",
+          "consistency": "LIQUID",
+          "name": "soy sauce",
+          "nameClean": "soy sauce",
+          "original": "2 tablespoons soy sauce",
+          "originalName": "soy sauce",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 16150,
+          "aisle": "Nut butters, Jams, and Honey",
+          "image": "peanut-butter.png",
+          "consistency": "SOLID",
+          "name": "smooth peanut butter",
+          "nameClean": "reduced fat peanut butter",
+          "original": "½ cup smooth peanut butter",
+          "originalName": "smooth peanut butter",
+          "amount": 0.5,
+          "unit": "cup",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 118.294,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 11935,
+          "aisle": "Condiments",
+          "image": "ketchup.png",
+          "consistency": "LIQUID",
+          "name": "ketchup",
+          "nameClean": "ketchup",
+          "original": "¼ ketchup",
+          "originalName": "ketchup",
+          "amount": 0.25,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.25,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 0.25,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 10114106,
+          "aisle": "Alcoholic Beverages",
+          "image": "dry-sherry.png",
+          "consistency": "LIQUID",
+          "name": "dry sherry",
+          "nameClean": "dry sherry",
+          "original": "2 tablespoons dry sherry",
+          "originalName": "dry sherry",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [
+            "dry"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 9160,
+          "aisle": "Produce",
+          "image": "lime-juice.png",
+          "consistency": "LIQUID",
+          "name": "lime juice",
+          "nameClean": "lime juice",
+          "original": "1-½ teaspoons freshly squeezed lime juice (I used 2 limes)",
+          "originalName": "freshly squeezed lime juice (I used 2 limes)",
+          "amount": 1,
+          "unit": "teaspoons",
+          "meta": [
+            "freshly squeezed",
+            "(I used 2 limes)"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        }
+      ],
+      "instructions": "Whisk together the lemon juice, olive oil, salt, pepper, and thyme. Pour over the chicken breasts in a large bowl.\nCover and marinate in the refrigerator for 6 hours or overnight. (The longer the chicken marinates, the better it will taste).\nHeat the grill and cook the chicken breasts for 10 minutes on each side, until just cooked through.\nRemove from the grill, cover and let stand for a couple of minutes before serving.\nFor the Satay Sauce\nCook the olive oil, sesame oil, red onion, garlic, ginger root, and red pepper flakes in a small, heavy bottomed pot on medium heat until the onion is transparent, 10 to 15 minutes.\nIn a bowl whisk in the vinegar, sugar, soy sauce, peanut butter, ketchup, sherry and lime juice.\nAdd to the onion mixture and cook for 1 minute.\nCool and use alongside the chicken.",
       "email": "proko.piotr@gmail.com",
-      "id": 25
+      "id": 2
     },
     {
       "title": "Apple Walnut Brownies",
-      "description": "Apple Walnut Brownies",
-      "instruction": [
-        "Preheat oven to 160C/320F. Line a rectangle cake pan.",
-        "Combine butter and chopped baking chocolate over low heat until melted.",
-        "Remove from heat and set aside to cool.",
-        "Place eggs. brown sugar, and vanilla extract in a mixing bowl and beat till fluffy and add in the melted butter chocolate mixture, stir till well combined.",
-        "Add self rising flour, cinnamon, walnuts, and green apple, mix well and pour into prepared cake pan.",
-        "Bake in preheated oven for 40 to 45 minutes and leave cake to cool. Best to chill for at least one hour for easy spreading of the ganache cream.To make the chocolate ganache: bring the cream to just a boil over medium-high heat.",
-        "Add in the semi-sweet chocolate pieces and blend well till chocolate melts.",
-        "Whisk until creamy.",
-        "Let cool and spread onto cake."
-      ],
-      "types": "side dish",
-      "cuisines": "American",
+      "summary": "The recipe Apple Walnut Brownies could satisfy your American craving in about <b>1 hour and 15 minutes</b>. For <b>$1.19 per serving</b>, you get a dessert that serves 10. One serving contains <b>401 calories</b>, <b>6g of protein</b>, and <b>33g of fat</b>. This recipe from Foodista has 10 fans. A mixture of self rising flour, semi-sweet chocolate, butter, and a handful of other ingredients are all it takes to make this recipe so scrumptious. All things considered, we decided this recipe <b>deserves a spoonacular score of 39%</b>. This score is not so spectacular. Similar recipes include <a href=\"https://spoonacular.com/recipes/walnut-brownies-454785\">Walnut Brownies</a>, <a href=\"https://spoonacular.com/recipes/walnut-oat-brownies-416333\">Walnut Oat Brownies</a>, and <a href=\"https://spoonacular.com/recipes/walnut-brownies-408642\">Walnut Brownies</a>.",
       "image": "https://spoonacular.com/recipeImages/632611-556x370.jpg",
+      "extendedIngredients": [
+        {
+          "id": 19078,
+          "aisle": "Baking",
+          "image": "baking-chocolate.jpg",
+          "consistency": "SOLID",
+          "name": "baking chocolate",
+          "nameClean": "unsweetened baking chocolate",
+          "original": "180g baking chocolate, chop to pieces",
+          "originalName": "baking chocolate, chop to pieces",
+          "amount": 180,
+          "unit": "g",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 6.349,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 180,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 19334,
+          "aisle": "Baking",
+          "image": "light-brown-sugar.jpg",
+          "consistency": "SOLID",
+          "name": "brown sugar",
+          "nameClean": "golden brown sugar",
+          "original": "Brown sugar (40g)",
+          "originalName": "Brown sugar",
+          "amount": 40,
+          "unit": "g",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1.411,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 40,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1001,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "butter-sliced.jpg",
+          "consistency": "SOLID",
+          "name": "butter",
+          "nameClean": "butter",
+          "original": "120g Butter",
+          "originalName": "Butter",
+          "amount": 120,
+          "unit": "g",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 4.233,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 120,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1012010,
+          "aisle": "Spices and Seasonings",
+          "image": "cinnamon.jpg",
+          "consistency": "SOLID",
+          "name": "cinnamon powder",
+          "nameClean": "ground cinnamon",
+          "original": "1/2 tsp Cinnamon powder",
+          "originalName": "Cinnamon powder",
+          "amount": 0.5,
+          "unit": "tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 1123,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "egg.png",
+          "consistency": "SOLID",
+          "name": "eggs",
+          "nameClean": "egg",
+          "original": "2 Eggs",
+          "originalName": "Eggs",
+          "amount": 2,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 1069003,
+          "aisle": "Produce",
+          "image": "grannysmith-apple.png",
+          "consistency": "SOLID",
+          "name": "green apple",
+          "nameClean": "green apple",
+          "original": "1 Green apple (shredded), remove the apple skin and chop to large cubes",
+          "originalName": "Green apple (shredded), remove the apple skin and chop to large cubes",
+          "amount": 1,
+          "unit": "large",
+          "meta": [
+            "shredded",
+            "green",
+            "()"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            }
+          }
+        },
+        {
+          "id": 20129,
+          "aisle": "Baking",
+          "image": "flour.png",
+          "consistency": "SOLID",
+          "name": "self rising flour",
+          "nameClean": "self rising flour",
+          "original": "70g Self rising flour",
+          "originalName": "Self rising flour",
+          "amount": 70,
+          "unit": "g",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2.469,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 70,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 19903,
+          "aisle": "Sweet Snacks",
+          "image": "dark-chocolate-pieces.jpg",
+          "consistency": "SOLID",
+          "name": "semi-sweet chocolate",
+          "nameClean": "semisweet chocolate",
+          "original": "150g Semi-sweet chocolate",
+          "originalName": "Semi-sweet chocolate",
+          "amount": 150,
+          "unit": "g",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 5.291,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 150,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 2050,
+          "aisle": "Baking",
+          "image": "vanilla-extract.jpg",
+          "consistency": "LIQUID",
+          "name": "vanilla extract",
+          "nameClean": "vanilla extract",
+          "original": "1 tsp Vanilla extract",
+          "originalName": "Vanilla extract",
+          "amount": 1,
+          "unit": "tsp",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 12155,
+          "aisle": "Nuts;Baking",
+          "image": "walnuts.jpg",
+          "consistency": "SOLID",
+          "name": "walnut",
+          "nameClean": "walnuts",
+          "original": "60g Walnut, toasted and break into half",
+          "originalName": "Walnut, toasted and break into half",
+          "amount": 60,
+          "unit": "g",
+          "meta": [
+            "toasted"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2.116,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 60,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 1001053,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "fluid-cream.jpg",
+          "consistency": "LIQUID",
+          "name": "whipping cream",
+          "nameClean": "whipping cream",
+          "original": "100g Whipping cream",
+          "originalName": "Whipping cream",
+          "amount": 100,
+          "unit": "g",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 3.527,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 100,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        }
+      ],
+      "instructions": "<ol><li>Preheat oven to 160C/320F. Line a rectangle cake pan.</li><li>Combine butter and chopped baking chocolate over low heat until melted. Remove from heat and set aside to cool.</li><li>Place eggs. brown sugar, and vanilla extract in a mixing bowl and beat till fluffy and add in the melted butter chocolate mixture, stir till well combined.</li><li>Add self rising flour, cinnamon, walnuts, and green apple, mix well and pour into prepared cake pan.</li><li>Bake in preheated oven for 40 to 45 minutes and leave cake to cool. Best to chill for at least one hour for easy spreading of the ganache cream.</li><li>To make the chocolate ganache: bring the cream to just a boil over medium-high heat.</li><li>Add in the semi-sweet chocolate pieces and blend well till chocolate melts. </li><li>Whisk until creamy.</li><li>Let cool and spread onto cake.</li></ol>",
       "email": "proko.piotr@gmail.com",
-      "id": 26
+      "id": 3
     },
     {
-      "title": "Raw Vegan Chocolate and Raspberry Cake",
-      "description": "Raw Vegan Chocolate and Raspberry Cake",
-      "types": "dessert",
-      "cuisines": "",
-      "instruction": [
-        "Go to my blog for the full instructions: http://gourmandelle.com/raw-vegan-chocolate-and-raspberry-birthday-cake/"
+      "title": "Spicy Salad with Kidney Beans, Cheddar, and Nuts",
+      "summary": "Spicy Salad with Kidney Beans, Cheddar, and Nuts might be just the main course you are searching for. For <b>$4.59 per serving</b>, this recipe <b>covers 37%</b> of your daily requirements of vitamins and minerals. This recipe makes 1 servings with <b>725 calories</b>, <b>27g of protein</b>, and <b>50g of fat</b> each. A mixture of almonds, avocado, kidney beans, and a handful of other ingredients are all it takes to make this recipe so tasty. To use up the avocado you could follow this main course with the <a href=\"https://spoonacular.com/recipes/chocolate-avocado-mousse-quick-dark-chocolate-avocado-mousse-486646\">chocolate avocado mousse | quick dark chocolate avocado mousse</a> as a dessert. From preparation to the plate, this recipe takes about <b>10 minutes</b>. It is a good option if you're following a <b>gluten free and vegetarian</b> diet. Try <a href=\"https://spoonacular.com/recipes/turkey-sausages-with-spicy-kidney-beans-75450\">Turkey Sausages With Spicy Kidney Beans</a>, <a href=\"https://spoonacular.com/recipes/spicy-chopped-kidney-bean-salad-506484\">Spicy Chopped Kidney Bean Salad</a>, and <a href=\"https://spoonacular.com/recipes/stoneground-grits-with-cheddar-cheese-and-spicy-black-beans-meatless-monday-524536\">Stoneground Grits with Cheddar Cheese and Spicy Black Beans – Meatless Monday</a> for similar recipes.",
+      "image": "https://spoonacular.com/recipeImages/157344-556x370.jpg",
+      "extendedIngredients": [
+        {
+          "id": 12061,
+          "aisle": "Nuts",
+          "image": "almonds.jpg",
+          "consistency": "SOLID",
+          "name": "almonds",
+          "nameClean": "almonds",
+          "original": "15 grams almonds",
+          "originalName": "almonds",
+          "amount": 15,
+          "unit": "grams",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.529,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 15,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 9037,
+          "aisle": "Produce",
+          "image": "avocado.jpg",
+          "consistency": "SOLID",
+          "name": "avocado",
+          "nameClean": "avocado",
+          "original": "1/2 avocado",
+          "originalName": "avocado",
+          "amount": 0.5,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 0.5,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 2069,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "balsamic-vinegar.jpg",
+          "consistency": "LIQUID",
+          "name": "balsamic vinegar",
+          "nameClean": "balsamic vinegar",
+          "original": "5 ml balsamic vinegar",
+          "originalName": "balsamic vinegar",
+          "amount": 5,
+          "unit": "ml",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.169,
+              "unitShort": "fl. oz",
+              "unitLong": "fl. ozs"
+            },
+            "metric": {
+              "amount": 5,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1009,
+          "aisle": "Cheese",
+          "image": "cheddar-cheese.png",
+          "consistency": "SOLID",
+          "name": "cheddar cheese",
+          "nameClean": "cheddar cheese",
+          "original": "1/4 cup (30 grams) cheddar cheese",
+          "originalName": "1/4 cup cheddar cheese",
+          "amount": 30,
+          "unit": "grams",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1.058,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 30,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 16033,
+          "aisle": "Pasta and Rice;Canned and Jarred",
+          "image": "kidney-beans.jpg",
+          "consistency": "SOLID",
+          "name": "kidney beans",
+          "nameClean": "kidney beans",
+          "original": "1/2 cup (113 grams) cooked kidney beans",
+          "originalName": "1/2 cup cooked kidney beans",
+          "amount": 113,
+          "unit": "grams",
+          "meta": [
+            "cooked"
+          ],
+          "measures": {
+            "us": {
+              "amount": 3.986,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 113,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 21052,
+          "aisle": "Produce",
+          "image": "mixed-greens-or-mesclun.jpg",
+          "consistency": "SOLID",
+          "name": "mixed greens",
+          "nameClean": "mesclun",
+          "original": "150 grams mixed greens",
+          "originalName": "mixed greens",
+          "amount": 150,
+          "unit": "grams",
+          "meta": [
+            "mixed"
+          ],
+          "measures": {
+            "us": {
+              "amount": 5.291,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 150,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 4053,
+          "aisle": "Oil, Vinegar, Salad Dressing",
+          "image": "olive-oil.jpg",
+          "consistency": "LIQUID",
+          "name": "olive oil",
+          "nameClean": "olive oil",
+          "original": "10 ml olive oil",
+          "originalName": "olive oil",
+          "amount": 10,
+          "unit": "ml",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 0.338,
+              "unitShort": "fl. oz",
+              "unitLong": "fl. ozs"
+            },
+            "metric": {
+              "amount": 10,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 12585,
+          "aisle": "Nuts;Savory Snacks",
+          "image": "cashews.jpg",
+          "consistency": "SOLID",
+          "name": "salted roasted cashews",
+          "nameClean": "salted roasted cashews",
+          "original": "15 grams roasted salted cashews",
+          "originalName": "roasted salted cashews",
+          "amount": 15,
+          "unit": "grams",
+          "meta": [
+            "salted"
+          ],
+          "measures": {
+            "us": {
+              "amount": 0.529,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 15,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 11955,
+          "aisle": "Canned and Jarred;Produce",
+          "image": "sundried-tomatoes.jpg",
+          "consistency": "SOLID",
+          "name": "sundried tomatoes",
+          "nameClean": "sun dried tomatoes",
+          "original": "2-3 sundried tomatoes",
+          "originalName": "sundried tomatoes",
+          "amount": 2,
+          "unit": "",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 6168,
+          "aisle": "Condiments",
+          "image": "hot-sauce-or-tabasco.png",
+          "consistency": "LIQUID",
+          "name": "tabasco",
+          "nameClean": "hot sauce",
+          "original": "2 dashes (or more if you like it hot!) Tabasco",
+          "originalName": "(or more if you like it hot!) Tabasco",
+          "amount": 2,
+          "unit": "dashes",
+          "meta": [
+            "( if you like it hot!)"
+          ],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "dashes",
+              "unitLong": "dashes"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "dashes",
+              "unitLong": "dashes"
+            }
+          }
+        }
       ],
-      "image": "https://spoonacular.com/recipeImages/658007-556x370.jpg",
+      "instructions": "<p>     1. Rinse and drain the kidney beans, cut the sundried tomatoes, and tear the slice of cheese into small pieces.</p><p>     2. Put the mixed greens in a bowl and top with kidney beans, sundried tomatoes, cheddar cheese, and nuts.</p><p>     3. Mix together the olive oil, balsamic vinegar, and hot sauce in a small bowl. Pour the dressing over the salad.</p><p>     Fast, easy, and healthy-- one of my favorite lunches!</p>",
       "email": "proko.piotr@gmail.com",
-      "id": 27
+      "id": 4
     },
     {
-      "title": "No Oven Peanut Butter Squares",
-      "description": "No Oven Peanut Butter Squares",
-      "types": "antipasti,starter,snack,appetizer,antipasto,hor d'oeuvre",
-      "cuisines": "",
-      "instruction": [
-        "Line 9\"x13\" pan with foil or wax paper, with ends extending over sides of pan. Melt butter in large bowl in microwave on high for 45 seconds or over stove in pan until melted.",
-        "Remove from heat and stir in sugar, crumbs and peanut butter; mix well.",
-        "Spread mixture into prepared pan. Melt \"Nuggets\" on slow and low heat in microwave or small saucepan until smooth, stirring until melted. Cool slightly, and then pour over peanut butter mixture in pan. Cool.",
-        "Cut partially through mixture to mark squares with desired size. Can refrigerate or wait until it sets. Lift from pan, using handles from foil or wax paper.",
-        "Cut all the way through mixture into squares.",
-        "Serves 24"
+      "title": "Siemanko",
+      "summary": "działam ",
+      "image": "/image/notFound.svg",
+      "extendedIngredients": [
+        "mam taka nadzieje",
+        " ze wszytrko działa",
+        " nic sie nie psuje"
       ],
-      "image": "https://spoonacular.com/recipeImages/653169-556x370.jpg",
-      "email": "frontend.newsletter.sierant@gmail.com",
-      "id": 28
+      "instructions": "asdasdasdasdas",
+      "email": "proko.piotr@gmail.com",
+      "id": 5
     },
     {
-      "title": "Grilled Chicken with Sateay Sauce",
-      "description": "Grilled Chicken with Sateay Sauce",
-      "instruction": [
-        "Whisk together the lemon juice, olive oil, salt, pepper, and thyme.",
-        "Pour over the chicken breasts in a large bowl.",
-        "Cover and marinate in the refrigerator for 6 hours or overnight. (The longer the chicken marinates, the better it will taste).",
-        "Heat the grill and cook the chicken breasts for 10 minutes on each side, until just cooked through.",
-        "Remove from the grill, cover and let stand for a couple of minutes before serving.",
-        "For the Satay Sauce",
-        "Cook the olive oil, sesame oil, red onion, garlic, ginger root, and red pepper flakes in a small, heavy bottomed pot on medium heat until the onion is transparent, 10 to 15 minutes.",
-        "In a bowl whisk in the vinegar, sugar, soy sauce, peanut butter, ketchup, sherry and lime juice.",
-        "Add to the onion mixture and cook for 1 minute.",
-        "Cool and use alongside the chicken."
+      "title": "Chicken and White Bean Chili",
+      "summary": "Chicken and White Bean Chili is an American recipe that serves 9. One portion of this dish contains about <b>23g of protein</b>, <b>30g of fat</b>, and a total of <b>417 calories</b>. For <b>$1.34 per serving</b>, this recipe <b>covers 15%</b> of your daily requirements of vitamins and minerals. 10 people were glad they tried this recipe. From preparation to the plate, this recipe takes approximately <b>approximately 45 minutes</b>. If you have onion, bell pepper, bay leaf, and a few other ingredients on hand, you can make it. It works well as a reasonably priced main course for <b>The Super Bowl</b>. It is brought to you by Foodista. All things considered, we decided this recipe <b>deserves a spoonacular score of 43%</b>. This score is solid. Try <a href=\"https://spoonacular.com/recipes/white-bean-chicken-chili-172968\">White Bean-Chicken Chili</a>, <a href=\"https://spoonacular.com/recipes/white-bean-and-chicken-chili-997716\">White Bean and Chicken Chili</a>, and <a href=\"https://spoonacular.com/recipes/white-bean-chicken-chili-520475\">White Bean Chicken Chili</a> for similar recipes.",
+      "image": "https://spoonacular.com/recipeImages/637932-556x370.jpg",
+      "extendedIngredients": [
+        {
+          "id": 5006,
+          "aisle": "Meat",
+          "image": "whole-chicken.jpg",
+          "consistency": "SOLID",
+          "name": "chicken",
+          "nameClean": "whole chicken",
+          "original": "4 pounds whole chicken cut into quarters or approximately 1 ½ pounds (750g) boneless chicken",
+          "originalName": "whole chicken cut into quarters or approximately 1 ½ pounds (750g) boneless chicken",
+          "amount": 4,
+          "unit": "pounds",
+          "meta": [
+            "whole",
+            "boneless",
+            "cut into quarters or approximately 1 ½ pounds (750g)  chicken "
+          ],
+          "measures": {
+            "us": {
+              "amount": 4,
+              "unitShort": "lb",
+              "unitLong": "pounds"
+            },
+            "metric": {
+              "amount": 1.814,
+              "unitShort": "kgs",
+              "unitLong": "kgs"
+            }
+          }
+        },
+        {
+          "id": 14412,
+          "aisle": "Beverages",
+          "image": "water.png",
+          "consistency": "LIQUID",
+          "name": "water",
+          "nameClean": "water",
+          "original": "4 cups (1 liter) water",
+          "originalName": "cups water",
+          "amount": 1,
+          "unit": "liter",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1.057,
+              "unitShort": "qt",
+              "unitLong": "quarts"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "l",
+              "unitLong": "liter"
+            }
+          }
+        },
+        {
+          "id": 6080,
+          "aisle": "Canned and Jarred",
+          "image": "stock-cube.jpg",
+          "consistency": "SOLID",
+          "name": "chicken base",
+          "nameClean": "chicken base",
+          "original": "2 tablespoons chicken bouillon granules or chicken soup base",
+          "originalName": "chicken bouillon granules or chicken soup base",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 2004,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "bay-leaves.jpg",
+          "consistency": "SOLID",
+          "name": "bay leaf",
+          "nameClean": "bay leaves",
+          "original": "1 large bay leaf",
+          "originalName": "bay leaf",
+          "amount": 1,
+          "unit": "large",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "large",
+              "unitLong": "large"
+            }
+          }
+        },
+        {
+          "id": 10511282,
+          "aisle": "Produce",
+          "image": "brown-onion.png",
+          "consistency": "SOLID",
+          "name": "yellow onion",
+          "nameClean": "yellow onion",
+          "original": "1 medium size yellow onion, finely diced",
+          "originalName": "yellow onion, finely diced",
+          "amount": 1,
+          "unit": "medium size",
+          "meta": [
+            "diced",
+            "yellow",
+            "finely"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "medium size",
+              "unitLong": "medium size"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "medium size",
+              "unitLong": "medium size"
+            }
+          }
+        },
+        {
+          "id": 11951,
+          "aisle": "Produce",
+          "image": "yellow-bell-pepper.jpg",
+          "consistency": "SOLID",
+          "name": "yellow bell pepper",
+          "nameClean": "yellow pepper",
+          "original": "1 medium to large size orange, red or yellow bell pepper, with seeds",
+          "originalName": "to large size orange, red or yellow bell pepper, with seeds",
+          "amount": 1,
+          "unit": "",
+          "meta": [
+            "red",
+            "yellow",
+            "with seeds ",
+            "medium to large"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "",
+              "unitLong": ""
+            }
+          }
+        },
+        {
+          "id": 11215,
+          "aisle": "Produce",
+          "image": "garlic.png",
+          "consistency": "SOLID",
+          "name": "garlic cloves",
+          "nameClean": "garlic",
+          "original": "3 large garlic cloves, finely minced",
+          "originalName": "garlic cloves, finely minced",
+          "amount": 3,
+          "unit": "large",
+          "meta": [
+            "finely minced"
+          ],
+          "measures": {
+            "us": {
+              "amount": 3,
+              "unitShort": "large",
+              "unitLong": "larges"
+            },
+            "metric": {
+              "amount": 3,
+              "unitShort": "large",
+              "unitLong": "larges"
+            }
+          }
+        },
+        {
+          "id": 20081,
+          "aisle": "Baking",
+          "image": "flour.png",
+          "consistency": "SOLID",
+          "name": "flour",
+          "nameClean": "wheat flour",
+          "original": "5 tablespoons all-purpose flour",
+          "originalName": "all-purpose flour",
+          "amount": 5,
+          "unit": "tablespoons",
+          "meta": [
+            "all-purpose"
+          ],
+          "measures": {
+            "us": {
+              "amount": 5,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 5,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 10716050,
+          "aisle": "Pasta and Rice;Canned and Jarred",
+          "image": "cooked-cannellini-beans.png",
+          "consistency": "SOLID",
+          "name": "cannellini beans",
+          "nameClean": "cannellini beans",
+          "original": "1 ounce – 15.5 (439g) tin cannellini beans (or any other white bean), drained and rinsed",
+          "originalName": "ounce – 15.5 tin cannellini beans (or any other white bean), drained and rinsed",
+          "amount": 439,
+          "unit": "g",
+          "meta": [
+            "white",
+            "drained and rinsed",
+            "or any other  bean), ",
+            "canned"
+          ],
+          "measures": {
+            "us": {
+              "amount": 15.485,
+              "unitShort": "oz",
+              "unitLong": "ounces"
+            },
+            "metric": {
+              "amount": 439,
+              "unitShort": "g",
+              "unitLong": "grams"
+            }
+          }
+        },
+        {
+          "id": 2009,
+          "aisle": "Spices and Seasonings",
+          "image": "chili-powder.jpg",
+          "consistency": "SOLID",
+          "name": "chili powder",
+          "nameClean": "chili powder",
+          "original": "2 tablespoons mild chili powder",
+          "originalName": "mild chili powder",
+          "amount": 2,
+          "unit": "tablespoons",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "Tbsps",
+              "unitLong": "Tbsps"
+            }
+          }
+        },
+        {
+          "id": 1002013,
+          "aisle": "Spices and Seasonings",
+          "image": "ground-coriander.jpg",
+          "consistency": "SOLID",
+          "name": "ground coriander",
+          "nameClean": "ground coriander",
+          "original": "1 teaspoon ground coriander",
+          "originalName": "ground coriander",
+          "amount": 1,
+          "unit": "teaspoon",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "tsp",
+              "unitLong": "teaspoon"
+            }
+          }
+        },
+        {
+          "id": 1002014,
+          "aisle": "Spices and Seasonings",
+          "image": "ground-cumin.jpg",
+          "consistency": "SOLID",
+          "name": "ground cumin",
+          "nameClean": "cumin",
+          "original": "2 teaspoons ground cumin",
+          "originalName": "ground cumin",
+          "amount": 2,
+          "unit": "teaspoons",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            },
+            "metric": {
+              "amount": 2,
+              "unitShort": "tsps",
+              "unitLong": "teaspoons"
+            }
+          }
+        },
+        {
+          "id": 11165,
+          "aisle": "Produce;Spices and Seasonings",
+          "image": "cilantro.png",
+          "consistency": "SOLID",
+          "name": "fresh coriander",
+          "nameClean": "cilantro",
+          "original": "1 tablespoon chopped fresh coriander",
+          "originalName": "chopped fresh coriander",
+          "amount": 1,
+          "unit": "tablespoon",
+          "meta": [
+            "fresh",
+            "chopped"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "Tbsp",
+              "unitLong": "Tbsp"
+            }
+          }
+        },
+        {
+          "id": 1053,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "fluid-cream.jpg",
+          "consistency": "LIQUID",
+          "name": "heavy whipping cream",
+          "nameClean": "cream",
+          "original": "1 cup (250ml) single cream or heavy whipping cream",
+          "originalName": "cup single cream or heavy whipping cream",
+          "amount": 250,
+          "unit": "ml",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 1.057,
+              "unitShort": "cups",
+              "unitLong": "cups"
+            },
+            "metric": {
+              "amount": 250,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 1056,
+          "aisle": "Milk, Eggs, Other Dairy",
+          "image": "sour-cream.jpg",
+          "consistency": "SOLID",
+          "name": "soured cream",
+          "nameClean": "sour cream",
+          "original": "3/4 cup (187ml) soured cream",
+          "originalName": "3/4 cup soured cream",
+          "amount": 187,
+          "unit": "ml",
+          "meta": [],
+          "measures": {
+            "us": {
+              "amount": 6.324,
+              "unitShort": "fl. oz",
+              "unitLong": "fl. ozs"
+            },
+            "metric": {
+              "amount": 187,
+              "unitShort": "ml",
+              "unitLong": "milliliters"
+            }
+          }
+        },
+        {
+          "id": 10211821,
+          "aisle": "Produce",
+          "image": "bell-pepper-orange.png",
+          "consistency": "SOLID",
+          "name": "bell pepper",
+          "nameClean": "bell pepper",
+          "original": "Pepper to taste",
+          "originalName": "Pepper to taste",
+          "amount": 1,
+          "unit": "serving",
+          "meta": [
+            "to taste"
+          ],
+          "measures": {
+            "us": {
+              "amount": 1,
+              "unitShort": "serving",
+              "unitLong": "serving"
+            },
+            "metric": {
+              "amount": 1,
+              "unitShort": "serving",
+              "unitLong": "serving"
+            }
+          }
+        }
       ],
-      "types": "",
-      "cuisines": "",
-      "image": "https://spoonacular.com/recipeImages/645671-556x370.jpg",
-      "email": "frontend.newsletter.sierant@gmail.com",
-      "id": 29
+      "instructions": "Rinse the chicken quarters really well and place them in a stock pot.\nTo the chicken in the pot, add the water (water should mostly cover the chicken), bouillon, bay leaf, onion, bell pepper and garlic.\nPlace the stock pot over medium high heat and bring to a boil; reduce the heat to medium, cover and simmer until chicken is cooked through, approximately 30 minutes.\nRemove pot from the heat.\nRemove chicken quarters from the pot and transfer them to a cutting board and cool until they can be comfortably handled. \n \nRemove meat from the bones and chop it into small pieces then shred slightly; set aside.\nRemove approximately 1 cup (250ml) of the liquid from the stock pot and set aside.\nReturn the stock pot to medium heat and bring to a simmer. \n \nPlace the flour into a small bowl.\nWhile stirring constantly, gradually add the reserved liquid to the flour until a smooth paste is formed.\nPour the paste into the stock pot and stir constantly until the mixture starts to thicken.\nAdd the beans, chopped chicken, chili powder, coriander and cumin.\nIncrease the heat to medium and, stirring frequently, simmer, uncovered for approximately 15-20 minutes or until the mixture is thick enough to coat the back of a spoon.\nReduce the heat to low and add the fresh coriander, single cream and soured cream.\nStir well until the single and soured creams are completely incorporated into the chili.\nAdd pepper to taste.\nServe immediately.\nGarnish with chopped avocado, spring onion, fresh coriander or grated cheese.\nLike most soups, this chili is great refrigerated and served the next day but if you intend on freezing it, leave out the whipping cream and soured cream (they separate when frozen) and add them just before serving.\nIf youd like to spice things up a bit, add  -  teaspoon cayenne pepper or red pepper flakes for a slightly hot flavor.",
+      "email": "proko.piotr@gmail.com",
+      "id": 6
     }
   ]
 }

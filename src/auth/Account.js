@@ -65,7 +65,7 @@ const Account = ({ session }) => {
     }
 
     return (
-        <div className={styles.container} aria-live="polite">
+        <section className={styles.container} aria-live="polite">
             {loading ? <Spinner /> : (
                 <form onSubmit={updateProfile} className={styles.form}>
                     <div className={styles.form__email}>Email:<span>{session.user.email}</span> </div>
@@ -81,12 +81,12 @@ const Account = ({ session }) => {
                     </div>
                     <Button
                         disabled={loading}
-                        text={'Zaktualizuj dane!'}
-                        onClick={() => console.log('Imię zostało zmienione!')}
+                        text={'Update the data'}
+                        onClick={() => console.log('Name has been changed!')}
                     />
                 </form>
             )}
-        </div>
+        </section>
     )
 }
 

@@ -6,8 +6,8 @@ import {faSearch} from "@fortawesome/free-solid-svg-icons";
 export function Search() {
     const [value, setValue] = useState('');
     return (
-        <div className={styles.containerSearch}>
-            <div className={styles.input}>
+        <section className={styles.containerSearch}>
+            <section className={styles.input}>
                 <FontAwesomeIcon icon={faSearch} className={styles.icon} />
                 <input
                     className={styles.start__app__input__effect}
@@ -18,7 +18,7 @@ export function Search() {
                     onChange={(e) => setValue(e.target.value)}
                 />
                 <span className={styles.start__app__input__focus__border}></span>
-            </div>
-        </div>
+            </section>
+        </section>
     )
 }

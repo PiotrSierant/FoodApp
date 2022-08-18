@@ -27,7 +27,7 @@ export default function OurChoice() {
         }
     }
     return (
-        <div className={styles.ourChoiceContainer}>
+        <section className={styles.ourChoiceContainer}>
             <h3>Our choice recipe:</h3>
             <Splide options={{
                 perPage: 5,
@@ -51,6 +51,6 @@ export default function OurChoice() {
                     })
                 }
             </Splide>
-        </div>
+        </section>
     )
 }

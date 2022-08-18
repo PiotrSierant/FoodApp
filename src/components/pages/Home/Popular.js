@@ -28,7 +28,7 @@ export default function Popular() {
     }
 
     return (
-        <div className={styles.popularContainer}>
+        <section className={styles.popularContainer}>
             <h3>Popular recipe:</h3>
             <Splide options={{
                 perPage: 3,
@@ -52,6 +52,6 @@ export default function Popular() {
                     })
                 }
             </Splide>
-        </div>
+        </section>
     )
 }

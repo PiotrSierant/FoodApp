@@ -21,7 +21,7 @@ export default function Navbar() {
     })
 
     return (
-        <div className={styles.navContainer}>
+        <header className={styles.navContainer}>
             <nav>
                 <a href={'/'} className={styles.logo}>
                     <FontAwesomeIcon icon={faPepperHot} className={styles.colorLogo} />
@@ -39,10 +39,10 @@ export default function Navbar() {
                 }>
                     {menuList}
                     <NavLink to={'/'} onClick={() => supabase.auth.signOut()}><li>
-                        Wyloguj
+                        Logout
                     </li></NavLink>
                 </ul>
             </nav>
-        </div>
+        </header>
     )
 }

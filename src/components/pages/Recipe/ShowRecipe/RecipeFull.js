@@ -1,19 +1,23 @@
 import React from "react";
-import styles from "../RandomRecipe.module.scss";
+import styles from './Recipe.module.scss';
 import {RecipeTitle} from "./RecipeTitle";
-import {RecipeTypes} from "./RecipeTypes";
+import {RecipeIngredients} from "./RecipeIngredients";
 import {RecipeImage} from "./RecipeImage";
-import {RecipeCuisines} from "./RecipeCuisines";
+import {RecipeSummary} from "./RecipeSummary";
 import {RecipeInstruction} from "./RecipeInstruction";
-import {Button} from "../../../Button";
+import {Button, DeleteButton} from "../../../Button";
 
-export function RecipeFull({recipe, onClick}) {
-    return <div className={styles.recipeBox}>
+export function RecipeFull({recipe, onClick, button}) {
+    return <article className={styles.RecipeBox}>
                 <RecipeTitle recipe={recipe.title} />
-                <RecipeTypes recipe={recipe.dishTypes} />
+                <RecipeSummary recipe={recipe.summary} />
                 <RecipeImage recipe={recipe.image} alt={recipe.title}/>
-                <RecipeCuisines recipe={recipe.cuisines} />
-                <RecipeInstruction myRecipe={false} recipe={recipe.instructions} />
-                <Button text={'Add recipe to my list'} onClick={onClick}/>
-            </div>
+                <RecipeIngredients recipe={recipe.extendedIngredients} />
+                <RecipeInstruction recipe={recipe.instructions} />
+                {
+                   button
+                   ? <DeleteButton text={'Delete recipe!'} onClick={onClick} />
+                   : <Button text={'Add recipe to my list'} onClick={onClick}/>
+                }
+            </article>
 }
