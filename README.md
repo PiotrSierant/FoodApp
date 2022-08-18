@@ -2,6 +2,13 @@
 FoodApp is an application that will help you find an idea for dinner and more! Randomize recipe, save recipe and add your recipe!
 [FoodApp - DEMO](https://foodapp-sierant.vercel.app/)
 
+Redirect URLs
+URLs that auth providers are permitted to redirect to post authentication
+* [https://localhost:3000](https://localhost:3000)
+* [https://foodapp-sierant.vercel.app/](https://foodapp-sierant.vercel.app/)
+* [https://foodapp-git-main-dzd07.vercel.app/](https://foodapp-git-main-dzd07.vercel.app/)
+* [https://foodapp-dzd07.vercel.app/](https://foodapp-dzd07.vercel.app/)
+
 Technologies that were used :
 * [Supabase](https://supabase.com/)
 * [React](https://pl.reactjs.org/)
