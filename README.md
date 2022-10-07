@@ -11,7 +11,26 @@
 
 ## ABOUT THE EXERCISE
 
-FoodApp is an application that will help you find an idea for dinner and more! Randomize recipe, save recipe and add your recipe!
+Skąd pomysł na projekt?
+Mnóstwo osób szuka przepisów oraz porad kulinarnych w internecie. Coraz więcej pojawia się aplikacji dla wielbicieli gotowania i swoją popularnością doganiają strony internetowe, czy też fora poświęcone kucharzeniu. Wszystko na to wskazuje, że między innymi przez takie aplikacje jakie przedstawimy w artykule gotować będziemy z telefonem w ręce.
+
+Wykorzystane API: https://spoonacular.com/food-api
+
+➟ Logowanie za pomocą "Magic Link", wylogowanie (Supabase) wraz z Routingiem.
+
+➟ Widok Home - strony głównej wraz z: sekcją "Popularne przepisy" z możliwością przechodzenia do szczegółowego przepisu i sekcją "Nasz wybór".
+
+➟ Ścieżka /add-recipe wraz z pełni działającym formularzem dodającym przepis.
+
+➟ Zapis przepisu z pomocą JSON-server.
+
+➟ Wyświetlenie moich przepisów.
+
+➟ Usunięcie przepisu.
+
+➟ Wylosowanie losowego przepisu z API.
+
+➟ Edycja Imienia do bazy danych w Supabase.
 
 ### Redirect URLs
 URLs that auth providers are permitted to redirect to post authentication
@@ -20,11 +39,6 @@ URLs that auth providers are permitted to redirect to post authentication
 * [https://foodapp-git-main-dzd07.vercel.app/](https://foodapp-git-main-dzd07.vercel.app/)
 * [https://foodapp-dzd07.vercel.app/](https://foodapp-dzd07.vercel.app/)
 
-Technologies that were used :
-* [Supabase](https://supabase.com/)
-* [React](https://pl.reactjs.org/)
-* [Sass](https://sass-lang.com/)
-* [JSON Server](https://www.npmjs.com/package/json-server)
 
 Api:
 `https://spoonacular.com/food-api`
@@ -40,6 +54,8 @@ Api:
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 	
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) 
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+[JSON Server](https://www.npmjs.com/package/json-server)
+
 
 ## INSTALLATION
 
