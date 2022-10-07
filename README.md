@@ -1,6 +1,17 @@
-# FoodApp
+<div align="center">
+    <img src="https://github.com/PiotrSierant/portfolioWeb/blob/master/public/images/logo_darkblue.svg" alt="Logo" width="80" height="80">
+    
+<h3 align="center">FoodApp</h3>
+
+<p align="center">
+<a href="https://foodapp-sierant.vercel.app/">View Live</a>
+</p>
+
+</div>
+
+## ABOUT THE EXERCISE
+
 FoodApp is an application that will help you find an idea for dinner and more! Randomize recipe, save recipe and add your recipe!
-[FoodApp - DEMO](https://foodapp-sierant.vercel.app/)
 
 ### Redirect URLs
 URLs that auth providers are permitted to redirect to post authentication
@@ -18,15 +29,35 @@ Technologies that were used :
 Api:
 `https://spoonacular.com/food-api`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## BUILT WITH
 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) 	
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) 
 
-* Open Git Bash
-* git clone `https://github.com/PiotrSierant/ReactApp.git`
-* `npm i`
-* `json-server --watch data/db.json --port 8000`
-* open new terminal
-* `npm start`
+## INSTALLATION
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/PiotrSierant/FoodApp.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Start project
+   ```sh
+   npm start
+   ```
+4. Open new terminal
+   ```
+   json-server --watch data/db.json --port 8000
+   ```
 
 ```
 Compiled successfully!
@@ -40,60 +71,3 @@ To create a production build, use npm run build.
 
 webpack compiled successfully
 ```
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
